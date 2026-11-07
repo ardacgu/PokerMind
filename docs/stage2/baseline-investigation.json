@@ -1,0 +1,63 @@
+{
+  "seed": 1,
+  "seconds": 5.812020375044085,
+  "checkpoints": [
+    {
+      "hand": 100,
+      "actions": 1985,
+      "stacks": [
+        3380,
+        3160,
+        0,
+        1460
+      ],
+      "completed": false
+    },
+    {
+      "hand": 1000,
+      "actions": 13367,
+      "stacks": [
+        4300,
+        0,
+        0,
+        3700
+      ],
+      "completed": false
+    },
+    {
+      "hand": 2000,
+      "actions": 21933,
+      "stacks": [
+        4380,
+        0,
+        0,
+        3620
+      ],
+      "completed": false
+    },
+    {
+      "hand": 3000,
+      "actions": 30589,
+      "stacks": [
+        6940,
+        0,
+        0,
+        1060
+      ],
+      "completed": false
+    },
+    {
+      "hand": 3289,
+      "actions": 33045,
+      "stacks": [
+        8000,
+        0,
+        0,
+        0
+      ],
+      "completed": true
+    }
+  ],
+  "hands_with_stack_changes": 3188,
+  "champion": 0
+}

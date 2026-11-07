@@ -1,0 +1,47 @@
+{
+  "method": "sRGB relative luminance, selected opaque color pairs; not full accessibility certification",
+  "pairs": [
+    {
+      "element": "Main text",
+      "foreground": "#f4f1e8",
+      "background": "#232e26",
+      "ratio": 12.48
+    },
+    {
+      "element": "Muted text",
+      "foreground": "#adb8ad",
+      "background": "#232e26",
+      "ratio": 6.87
+    },
+    {
+      "element": "Primary button darkest background",
+      "foreground": "#1c251c",
+      "background": "#cfa866",
+      "ratio": 7.1
+    },
+    {
+      "element": "Red card darkest background",
+      "foreground": "#b22d38",
+      "background": "#e8e7dc",
+      "ratio": 5.08
+    },
+    {
+      "element": "Black card darkest background",
+      "foreground": "#24312a",
+      "background": "#e8e7dc",
+      "ratio": 10.92
+    },
+    {
+      "element": "Error",
+      "foreground": "#ffceba",
+      "background": "#382b25",
+      "ratio": 9.6
+    },
+    {
+      "element": "Status on light seat",
+      "foreground": "#d0dbc7",
+      "background": "#27372e",
+      "ratio": 8.75
+    }
+  ]
+}

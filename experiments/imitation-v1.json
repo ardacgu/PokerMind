@@ -1,0 +1,18 @@
+{
+  "version": "imitation-experiment-1.0.0",
+  "seed": 20261107,
+  "pairs": [[6, 20], [12, 10], [20, 3]],
+  "class_weights": [null, "balanced"],
+  "families": ["tree", "forest"],
+  "forest_estimators": 200,
+  "forest_n_jobs": 2,
+  "primary": "validation.filtered.macro_f1_five",
+  "primary_classes": ["fold", "check", "call", "small", "large"],
+  "classes": ["fold", "check", "call", "small", "large", "all_in"],
+  "zero_division": 0,
+  "tie_break": "exact score ties: tree before forest, then shallower depth, larger leaf, unweighted before balanced",
+  "adapter_tie": "first in fixed class order",
+  "fallback": ["check", "fold", "call", "small", "large", "all_in"],
+  "preprocessing": "none: validated integer features, no missing values; no scaling needed for trees",
+  "rationale": "Depth/leaf pairs span a strongly regularized tree, moderate flexibility and a deeper low-bias candidate. Same budget for both families; weighting probes minority-label tradeoffs. Fixed 200-tree forests and two workers limit compute. No expansion after evaluation."
+}

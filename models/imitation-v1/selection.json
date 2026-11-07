@@ -1,0 +1,17 @@
+{
+  "locked_at": "2026-11-07T14:59:16.128341+00:00",
+  "winner": "forest-d20-l3-balanced",
+  "finalists": [
+    "dummy",
+    "tree-d12-l10-none",
+    "forest-d20-l3-balanced"
+  ],
+  "configuration_hash": "d7e2fc7ac451f408ccc027ea807997f461c70be728fba6d2987f0daa5e369b37",
+  "validation_hash": "ee71598f849546d196fa525ac565649c3151a96c1531cc66debf2bcc4abf2665",
+  "artifacts": {
+    "dummy.joblib": "51e502083cd81e02c0d6c89791bc19d57651e3da4516c36126beadfb0d896432",
+    "tree-d12-l10-none.joblib": "5aa3f2635eeadd3989787954b15f34fee1d75e7f1d173ad8eac9986e9ce82bd4",
+    "forest-d20-l3-balanced.joblib": "2e3b25f1f64bc8af55f470422de4e39a5db21756050c3b977147090bf20c0e4d",
+    "selected.joblib": "2e3b25f1f64bc8af55f470422de4e39a5db21756050c3b977147090bf20c0e4d"
+  }
+}

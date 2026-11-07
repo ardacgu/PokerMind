@@ -1,0 +1,32 @@
+{
+  "extracted_from": "PokerMind.zip",
+  "runtime": "existing pinned Python environment; extracted sources/model/static assets",
+  "python": "3.11.9",
+  "versions": {
+    "pokerkit": "0.7.7",
+    "fastapi": "0.162.1",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.2",
+    "numpy": "2.4.6"
+  },
+  "python_tests_passed": 68,
+  "javascript_tests_passed": 7,
+  "runtime_model_test_script_files_equal_to_checked_copy": 68,
+  "actual_extracted_browser_hand": {
+    "completed": true,
+    "mode": "learned",
+    "version": "imitation-v1",
+    "all_three_bots_acted": true,
+    "model_decisions": 6,
+    "fallbacks": 0,
+    "errors": 0,
+    "final_stacks": [
+      0,
+      4020,
+      1980,
+      2000
+    ]
+  },
+  "final_packaging": "Rebuilt after adding evidence; scripts/stage7_package.py verifies CRC, unique names, every member byte and preserved-artifact hashes. Final archive SHA-256 is in the sibling .sha256 file to avoid a self-referential checksum.",
+  "clean_machine_dependency_installation_tested": false
+}

@@ -1,0 +1,28 @@
+{
+  "completed_hands": 1,
+  "mode": "learned",
+  "version": "imitation-v1",
+  "all_three_opponents_acted": true,
+  "human_actions": [
+    "start",
+    "call 45",
+    "all-in raise to 2000",
+    "confirmed reset"
+  ],
+  "showdown_stacks": [
+    0,
+    6020,
+    1980,
+    0
+  ],
+  "folded_opponent_remained_masked": true,
+  "preflop_all_opponents_masked": true,
+  "reset_four_stacks_of_2000": true,
+  "counters": {
+    "decisions": 6,
+    "fallbacks": 0,
+    "errors": 0
+  },
+  "browser_console_warnings_errors": [],
+  "startup_note": "First navigation preceded cold server readiness and returned connection refused; opening after startup completed succeeded."
+}

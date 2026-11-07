@@ -1,0 +1,208 @@
+{
+  "preflop": {
+    "version": 3,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": true,
+        "cards": [
+          "7h",
+          "4s"
+        ],
+        "status": "im Spiel",
+        "dealer": true
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 1990,
+        "bet": 10,
+        "contribution": 10,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 1980,
+        "bet": 20,
+        "contribution": 20,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "gepasst",
+        "dealer": false
+      }
+    ],
+    "board": [],
+    "pot": 30,
+    "actor": 0,
+    "legal": {
+      "fold": true,
+      "call": 20,
+      "raise_min": 40,
+      "raise_max": 2000,
+      "all_in": {
+        "action": "raise",
+        "amount": 2000
+      }
+    },
+    "stage": "Preflop",
+    "finished": false,
+    "champion": null,
+    "result": [],
+    "history": [
+      "Blinds 10 / 20 gesetzt.",
+      "Grace passt."
+    ],
+    "can_start": false,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "halted": false,
+    "message": null
+  },
+  "showdown": {
+    "version": 15,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 1980,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "7h",
+          "4s"
+        ],
+        "status": "bereit",
+        "dealer": true
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 2040,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Ad",
+          "2h"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 1980,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "bereit",
+        "dealer": false
+      }
+    ],
+    "board": [
+      "3d",
+      "9d",
+      "As",
+      "5s",
+      "Kh"
+    ],
+    "pot": 0,
+    "actor": null,
+    "legal": {
+      "fold": false,
+      "call": null,
+      "raise_min": null,
+      "raise_max": null,
+      "all_in": null
+    },
+    "stage": "Ergebnis",
+    "finished": true,
+    "champion": null,
+    "result": [
+      {
+        "seat": 1,
+        "name": "Ada",
+        "awarded": 60,
+        "net": 40
+      }
+    ],
+    "history": [
+      "Blinds 10 / 20 gesetzt.",
+      "Grace passt.",
+      "Du gehst 20 mit.",
+      "Ada geht 10 mit.",
+      "Turing checkt.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Du checkst.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Du checkst.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Du checkst."
+    ],
+    "can_start": true,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "halted": false,
+    "message": null
+  }
+}

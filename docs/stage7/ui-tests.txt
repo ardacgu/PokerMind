@@ -1,0 +1,15 @@
+✔ cards have suit and rank names, masked cards contain no face (0.411542ms)
+✔ quick sizes are integer legal raise-to totals including call (0.331291ms)
+✔ amount field rejects empty, fractional and out-of-range values (0.069792ms)
+✔ terminal, halted, eliminated and active copy follows actual state (20.782083ms)
+✔ duplicate and stale commands blocked, transition remains locked (1.677417ms)
+✔ failed POST refreshes without retrying action (0.162125ms)
+✔ unreachable refresh locks commands until explicitly reconnected (0.094083ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 63.09825

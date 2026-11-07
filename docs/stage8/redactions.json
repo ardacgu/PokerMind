@@ -1,0 +1,65 @@
+{
+  "purpose": "Portable public verification transcripts. Original files retained locally under ignored work/stage8/private-originals. Historical evidence hashes refer to original bytes; this ledger connects them to the public redactions.",
+  "files": [
+    {
+      "file": "docs/stage3-tests.txt",
+      "original_sha256": "8303823c1aa8895d5c35711841ce23337374cdb0b7546870589b5550a3001dc6",
+      "published_sha256": "5dd74cd9f8e8029e5a9ed9780b304a3253577415be909c78eba5cf9d8b8c13f8",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage5-tests.txt",
+      "original_sha256": "3e78f89c32cc16fb2c0e3325383c1c441bc88cde710a4484d52c532403f85a9e",
+      "published_sha256": "ff40b260e710bb7fad3f4ba0e9e3c872e1d71f36425154d6751deb233c4135f7",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage4-tests.txt",
+      "original_sha256": "c3d9fb89ae3781c94baa6838b28465ecb1398396c3d054788c47d73f0af49c83",
+      "published_sha256": "1afa43bbd233b722e7acbf1053bd137d905da77fff4c87142911e525d9a16d49",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/pytest-output.txt",
+      "original_sha256": "b3af61a9f765f6e1a4a6e33743a6fb43743bfbe5c5d6d6afc983a5d1295e7fa9",
+      "published_sha256": "89b74b912fbcd93653aae2101ae4598bcb70a86e4c9ac047b03511943d1cf266",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage6/extracted-tests.txt",
+      "original_sha256": "4bb76f62c00a9975bf5e998aab209563b586895283b0042f5a5504eef5a680fe",
+      "published_sha256": "59bfb9ca8347f5de53dfdf343dfad17c8fc97ae920f92675c6d5661e6fee0e9b",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage6/tests.txt",
+      "original_sha256": "929c8b7e7a5a0eb3a18b2e9164de3214c518b541624165a4fec08e17561d0a12",
+      "published_sha256": "1efb17b5ec2caf9ff1e59c2c200ac2d81ff9234633c5eb8732c926cbaf0dae00",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage6/package-check.json",
+      "original_sha256": "0621da4b2a56ecee20c618da641bd586e145bf451f32c2798a132d0aa58b162d",
+      "published_sha256": "779bdcc02eb082cac3c965bbe2c813ea31e079c98fb12db7bab688391d576b0e",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage7/python-tests.txt",
+      "original_sha256": "6d9bfcf7bc876b66e86c2f2fc859a3b9bcd25a5a6ad7f1580cb188060b9fe98c",
+      "published_sha256": "9b99156ad060c669d61cabc24bf49c68606edd60e9d5d4f63ae116d19535e397",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage7/extracted-tests.txt",
+      "original_sha256": "c037c5959d0a7463cdce304d337c40bedb2645357795994c17485198c3bfab58",
+      "published_sha256": "fd3de06693a348edc5253005959e96c1db84ef7a5d51b03665fe742ae1177249",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    },
+    {
+      "file": "docs/stage2/pytest-output.txt",
+      "original_sha256": "d1a1755c05574d80b49ca71d3d20838ab331d426804687002508715c0d10b118",
+      "published_sha256": "63b7c59527b26752dd96feccce4ecb9ee8ac60d51ac1b1086180da1a41753af9",
+      "change": "Machine-specific project prefix replaced by <PROJECT_ROOT>; measurements unchanged."
+    }
+  ]
+}

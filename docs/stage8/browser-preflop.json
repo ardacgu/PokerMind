@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "viewer": 0,
+  "hand": 1,
+  "players": [
+    {
+      "seat": 0,
+      "name": "Du",
+      "stack": 2000,
+      "bet": 0,
+      "contribution": 0,
+      "in_hand": true,
+      "cards": [
+        "Td",
+        "5d"
+      ],
+      "status": "im Spiel",
+      "dealer": true
+    },
+    {
+      "seat": 1,
+      "name": "Ada",
+      "stack": 1990,
+      "bet": 10,
+      "contribution": 10,
+      "in_hand": true,
+      "cards": [
+        null,
+        null
+      ],
+      "status": "im Spiel",
+      "dealer": false
+    },
+    {
+      "seat": 2,
+      "name": "Turing",
+      "stack": 1980,
+      "bet": 20,
+      "contribution": 20,
+      "in_hand": true,
+      "cards": [
+        null,
+        null
+      ],
+      "status": "im Spiel",
+      "dealer": false
+    },
+    {
+      "seat": 3,
+      "name": "Grace",
+      "stack": 1955,
+      "bet": 45,
+      "contribution": 45,
+      "in_hand": true,
+      "cards": [
+        null,
+        null
+      ],
+      "status": "im Spiel",
+      "dealer": false
+    }
+  ],
+  "board": [],
+  "pot": 75,
+  "actor": 0,
+  "legal": {
+    "fold": true,
+    "call": 45,
+    "raise_min": 70,
+    "raise_max": 2000,
+    "all_in": {
+      "action": "raise",
+      "amount": 2000
+    }
+  },
+  "stage": "Preflop",
+  "finished": false,
+  "champion": null,
+  "result": [],
+  "history": [
+    "Blinds 10 / 20 gesetzt.",
+    "Grace erh\u00f6ht auf 45."
+  ],
+  "can_start": false,
+  "opponents": {
+    "mode": "learned",
+    "label": "Trainierte KI \u00b7 Random Forest",
+    "version": "imitation-v1"
+  },
+  "table": {
+    "actions": [
+      {
+        "index": 0,
+        "seat": 1,
+        "name": "Ada",
+        "kind": "blind",
+        "amount": 10
+      },
+      {
+        "index": 1,
+        "seat": 2,
+        "name": "Turing",
+        "kind": "blind",
+        "amount": 20
+      },
+      {
+        "index": 2,
+        "seat": 3,
+        "name": "Grace",
+        "kind": "raise",
+        "amount": 45
+      }
+    ],
+    "last_actions": {
+      "1": {
+        "index": 0,
+        "seat": 1,
+        "name": "Ada",
+        "kind": "blind",
+        "amount": 10
+      },
+      "2": {
+        "index": 1,
+        "seat": 2,
+        "name": "Turing",
+        "kind": "blind",
+        "amount": 20
+      },
+      "3": {
+        "index": 2,
+        "seat": 3,
+        "name": "Grace",
+        "kind": "raise",
+        "amount": 45
+      }
+    },
+    "pots": [],
+    "pending_bets": 75,
+    "awards": [],
+    "bet_label": "Erh\u00f6hen auf"
+  },
+  "halted": false,
+  "message": null
+}

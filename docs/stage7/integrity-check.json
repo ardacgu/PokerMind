@@ -1,0 +1,24 @@
+{
+  "preexisting_files_checked": 558,
+  "unchanged": 554,
+  "authorized_changes": [
+    "pokermind/server.py",
+    "pokermind/static/index.html",
+    "pokermind/static/style.css",
+    "pokermind/static/app.js"
+  ],
+  "categories": {
+    "models": 20,
+    "data": 288,
+    "evaluations": 225,
+    "pokermind": 25
+  },
+  "stage6_provenance_files_verified": 312,
+  "original_bytes_from_archive": [
+    "pokermind/server.py",
+    "pokermind/static/app.js",
+    "pokermind/static/index.html",
+    "pokermind/static/style.css"
+  ],
+  "model_teacher_rules_data_splits_evaluation_unchanged": true
+}

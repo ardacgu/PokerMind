@@ -1,0 +1,53 @@
+{
+  "real_browser": "Chromium in-app browser and native Google Chrome",
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "actual_chrome_zoom_percent": 200,
+  "zoom_restored_percent": 100,
+  "actual_system_reduced_motion_verified": true,
+  "system_reduced_motion_restored": true,
+  "production_smoke": {
+    "completed_hands": 3,
+    "model_decisions": 22,
+    "fallbacks": 0,
+    "errors": 0
+  },
+  "additional_real_seeded_hand_completed": true,
+  "double_click_equal_to_single_command": true,
+  "stale_command_http_status": 409,
+  "invalid_amount_blocked": true,
+  "range_keyboard_sync": true,
+  "reset_confirm_then_escape_cancel_verified": true,
+  "real_disconnect_reconnect_get_only": true,
+  "controlled_engine_fixtures": [
+    "side-pots",
+    "side-winners",
+    "split",
+    "champion",
+    "eliminated",
+    "heads-up",
+    "error"
+  ],
+  "not_claimed": [
+    "physical touch testing",
+    "screen-reader speech testing",
+    "all browser/OS combinations",
+    "new playing-strength evaluation"
+  ]
+}

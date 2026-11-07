@@ -1,0 +1,86 @@
+{
+  "actor": 1,
+  "board": [],
+  "can_start": false,
+  "champion": null,
+  "finished": false,
+  "hand": 1,
+  "history": [
+    "Blinds 10 / 20 gesetzt.",
+    "Grace geht 20 mit.",
+    "Du gehst 20 mit."
+  ],
+  "legal": {
+    "all_in": {
+      "action": "raise",
+      "amount": 2000
+    },
+    "call": 10,
+    "fold": true,
+    "raise_max": 2000,
+    "raise_min": 40
+  },
+  "players": [
+    {
+      "bet": 20,
+      "cards": [
+        null,
+        null
+      ],
+      "contribution": 20,
+      "dealer": true,
+      "in_hand": true,
+      "name": "Du",
+      "seat": 0,
+      "stack": 1980,
+      "status": "im Spiel"
+    },
+    {
+      "bet": 10,
+      "cards": [
+        "Jh",
+        "3h"
+      ],
+      "contribution": 10,
+      "dealer": false,
+      "in_hand": true,
+      "name": "Ada",
+      "seat": 1,
+      "stack": 1990,
+      "status": "im Spiel"
+    },
+    {
+      "bet": 20,
+      "cards": [
+        null,
+        null
+      ],
+      "contribution": 20,
+      "dealer": false,
+      "in_hand": true,
+      "name": "Turing",
+      "seat": 2,
+      "stack": 1980,
+      "status": "im Spiel"
+    },
+    {
+      "bet": 20,
+      "cards": [
+        null,
+        null
+      ],
+      "contribution": 20,
+      "dealer": false,
+      "in_hand": true,
+      "name": "Grace",
+      "seat": 3,
+      "stack": 1980,
+      "status": "im Spiel"
+    }
+  ],
+  "pot": 70,
+  "result": [],
+  "stage": "Preflop",
+  "version": 4,
+  "viewer": 1
+}

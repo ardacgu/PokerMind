@@ -1,0 +1,464 @@
+[
+  {
+    "prediction": {
+      "id": "s000100001:a000003",
+      "teacher": "call",
+      "street": "Preflop",
+      "executed": {
+        "action": "call",
+        "amount": null
+      },
+      "raw": "call",
+      "label": "call",
+      "raw_illegal": false,
+      "fallback": false,
+      "probabilities": {
+        "fold": 0.11041799469493331,
+        "check": 0.0,
+        "call": 0.8666945468101678,
+        "small": 0.013523188954539552,
+        "large": 0.009364269540359595,
+        "all_in": 0.0
+      }
+    },
+    "observation": {
+      "actor": 1,
+      "board": [],
+      "can_start": false,
+      "champion": null,
+      "finished": false,
+      "hand": 1,
+      "history": [
+        "Blinds 10 / 20 gesetzt.",
+        "Grace geht 20 mit.",
+        "Du gehst 20 mit."
+      ],
+      "legal": {
+        "all_in": {
+          "action": "raise",
+          "amount": 2000
+        },
+        "call": 10,
+        "fold": true,
+        "raise_max": 2000,
+        "raise_min": 40
+      },
+      "players": [
+        {
+          "bet": 20,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": true,
+          "in_hand": true,
+          "name": "Du",
+          "seat": 0,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 10,
+          "cards": [
+            "Jh",
+            "3h"
+          ],
+          "contribution": 10,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Ada",
+          "seat": 1,
+          "stack": 1990,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 20,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Turing",
+          "seat": 2,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 20,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Grace",
+          "seat": 3,
+          "stack": 1980,
+          "status": "im Spiel"
+        }
+      ],
+      "pot": 70,
+      "result": [],
+      "stage": "Preflop",
+      "version": 4,
+      "viewer": 1
+    }
+  },
+  {
+    "prediction": {
+      "id": "s000100001:a000004",
+      "teacher": "check",
+      "street": "Preflop",
+      "executed": {
+        "action": "call",
+        "amount": null
+      },
+      "raw": "check",
+      "label": "check",
+      "raw_illegal": false,
+      "fallback": false,
+      "probabilities": {
+        "fold": 0.0,
+        "check": 0.8919981553689648,
+        "call": 0.0,
+        "small": 0.08312394155628425,
+        "large": 0.024877903074750657,
+        "all_in": 0.0
+      }
+    },
+    "observation": {
+      "actor": 2,
+      "board": [],
+      "can_start": false,
+      "champion": null,
+      "finished": false,
+      "hand": 1,
+      "history": [
+        "Blinds 10 / 20 gesetzt.",
+        "Grace geht 20 mit.",
+        "Du gehst 20 mit.",
+        "Ada geht 10 mit."
+      ],
+      "legal": {
+        "all_in": {
+          "action": "raise",
+          "amount": 2000
+        },
+        "call": 0,
+        "fold": false,
+        "raise_max": 2000,
+        "raise_min": 40
+      },
+      "players": [
+        {
+          "bet": 20,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": true,
+          "in_hand": true,
+          "name": "Du",
+          "seat": 0,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 20,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Ada",
+          "seat": 1,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 20,
+          "cards": [
+            "Ad",
+            "4s"
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Turing",
+          "seat": 2,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 20,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Grace",
+          "seat": 3,
+          "stack": 1980,
+          "status": "im Spiel"
+        }
+      ],
+      "pot": 80,
+      "result": [],
+      "stage": "Preflop",
+      "version": 5,
+      "viewer": 2
+    }
+  },
+  {
+    "prediction": {
+      "id": "s000100001:a000014",
+      "teacher": "large",
+      "street": "River",
+      "executed": {
+        "action": "call",
+        "amount": null
+      },
+      "raw": "check",
+      "label": "check",
+      "raw_illegal": false,
+      "fallback": false,
+      "probabilities": {
+        "fold": 0.0,
+        "check": 0.8372937666607982,
+        "call": 0.0,
+        "small": 0.07666017709545352,
+        "large": 0.08604605624374848,
+        "all_in": 0.0
+      }
+    },
+    "observation": {
+      "actor": 2,
+      "board": [
+        "8c",
+        "2d",
+        "Kd",
+        "5h",
+        "Ah"
+      ],
+      "can_start": false,
+      "champion": null,
+      "finished": false,
+      "hand": 1,
+      "history": [
+        "Blinds 10 / 20 gesetzt.",
+        "Grace geht 20 mit.",
+        "Du gehst 20 mit.",
+        "Ada geht 10 mit.",
+        "Turing checkt.",
+        "Ada checkt.",
+        "Turing checkt.",
+        "Grace checkt.",
+        "Du checkst.",
+        "Ada checkt.",
+        "Turing checkt.",
+        "Grace checkt.",
+        "Du checkst.",
+        "Ada checkt."
+      ],
+      "legal": {
+        "all_in": {
+          "action": "raise",
+          "amount": 1980
+        },
+        "call": 0,
+        "fold": false,
+        "raise_max": 1980,
+        "raise_min": 20
+      },
+      "players": [
+        {
+          "bet": 0,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": true,
+          "in_hand": true,
+          "name": "Du",
+          "seat": 0,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 0,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Ada",
+          "seat": 1,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 0,
+          "cards": [
+            "Ad",
+            "4s"
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Turing",
+          "seat": 2,
+          "stack": 1980,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 0,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 20,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Grace",
+          "seat": 3,
+          "stack": 1980,
+          "status": "im Spiel"
+        }
+      ],
+      "pot": 80,
+      "result": [],
+      "stage": "River",
+      "version": 15,
+      "viewer": 2
+    }
+  },
+  {
+    "prediction": {
+      "id": "s000100001:a000024",
+      "teacher": "small",
+      "street": "Flop",
+      "executed": {
+        "action": "call",
+        "amount": null
+      },
+      "raw": "check",
+      "label": "check",
+      "raw_illegal": false,
+      "fallback": false,
+      "probabilities": {
+        "fold": 0.0,
+        "check": 0.6675714478012771,
+        "call": 0.0,
+        "small": 0.23960686803121167,
+        "large": 0.0878935695776909,
+        "all_in": 0.004928114589820564
+      }
+    },
+    "observation": {
+      "actor": 2,
+      "board": [
+        "5h",
+        "9h",
+        "Ac"
+      ],
+      "can_start": false,
+      "champion": null,
+      "finished": false,
+      "hand": 2,
+      "history": [
+        "Blinds 10 / 20 gesetzt.",
+        "Du gehst 20 mit.",
+        "Ada passt.",
+        "Turing geht 10 mit.",
+        "Grace erh\u00f6ht auf 40.",
+        "Du gehst 20 mit.",
+        "Turing geht 20 mit."
+      ],
+      "legal": {
+        "all_in": {
+          "action": "raise",
+          "amount": 2180
+        },
+        "call": 0,
+        "fold": false,
+        "raise_max": 2180,
+        "raise_min": 20
+      },
+      "players": [
+        {
+          "bet": 0,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 40,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Du",
+          "seat": 0,
+          "stack": 1860,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 0,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 0,
+          "dealer": true,
+          "in_hand": false,
+          "name": "Ada",
+          "seat": 1,
+          "stack": 1980,
+          "status": "gepasst"
+        },
+        {
+          "bet": 0,
+          "cards": [
+            "2s",
+            "9d"
+          ],
+          "contribution": 40,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Turing",
+          "seat": 2,
+          "stack": 2180,
+          "status": "im Spiel"
+        },
+        {
+          "bet": 0,
+          "cards": [
+            null,
+            null
+          ],
+          "contribution": 40,
+          "dealer": false,
+          "in_hand": true,
+          "name": "Grace",
+          "seat": 3,
+          "stack": 1860,
+          "status": "im Spiel"
+        }
+      ],
+      "pot": 120,
+      "result": [],
+      "stage": "Flop",
+      "version": 26,
+      "viewer": 2
+    }
+  }
+]

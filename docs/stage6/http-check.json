@@ -1,0 +1,22 @@
+{
+  "hands": 3,
+  "responses": 15,
+  "stacks": [
+    1980,
+    2040,
+    2020,
+    1960
+  ],
+  "mode": {
+    "mode": "learned",
+    "label": "Trainierte KI \u00b7 Random Forest",
+    "version": "imitation-v1"
+  },
+  "model_decisions": 24,
+  "adapter_fallbacks": 0,
+  "inference_errors": 0,
+  "bot_errors": 0,
+  "privacy_checked": true,
+  "teacher_forbidden": true,
+  "reset_and_static_assets": true
+}

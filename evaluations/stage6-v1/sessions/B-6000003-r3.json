@@ -1,0 +1,1141 @@
+{
+  "champion": 3,
+  "completed_hands": 59,
+  "config_hash": "48cf6cc861a0a791b37bbc18081067f7ff3669db7f40dd52016002af21a58acc",
+  "elapsed_seconds": 10.391134749981575,
+  "errors": [],
+  "hands": [
+    {
+      "actions": 13,
+      "active_seats": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "all_in_seats": [],
+      "dealer": 0,
+      "end_chips": [
+        1980,
+        2040,
+        1980,
+        2000
+      ],
+      "hand": 1
+    },
+    {
+      "actions": 19,
+      "active_seats": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        1800,
+        1860,
+        1440,
+        2900
+      ],
+      "hand": 2
+    },
+    {
+      "actions": 16,
+      "active_seats": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "all_in_seats": [],
+      "dealer": 2,
+      "end_chips": [
+        1780,
+        1840,
+        1500,
+        2880
+      ],
+      "hand": 3
+    },
+    {
+      "actions": 17,
+      "active_seats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        1725,
+        1785,
+        1445,
+        3045
+      ],
+      "hand": 4
+    },
+    {
+      "actions": 16,
+      "active_seats": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "all_in_seats": [],
+      "dealer": 0,
+      "end_chips": [
+        1680,
+        1740,
+        1580,
+        3000
+      ],
+      "hand": 5
+    },
+    {
+      "actions": 26,
+      "active_seats": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        1980,
+        1640,
+        1480,
+        2900
+      ],
+      "hand": 6
+    },
+    {
+      "actions": 15,
+      "active_seats": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "all_in_seats": [],
+      "dealer": 2,
+      "end_chips": [
+        1880,
+        1340,
+        1180,
+        3600
+      ],
+      "hand": 7
+    },
+    {
+      "actions": 13,
+      "active_seats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        1860,
+        1350,
+        1190,
+        3600
+      ],
+      "hand": 8
+    },
+    {
+      "actions": 13,
+      "active_seats": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "all_in_seats": [],
+      "dealer": 0,
+      "end_chips": [
+        1840,
+        1330,
+        1230,
+        3600
+      ],
+      "hand": 9
+    },
+    {
+      "actions": 22,
+      "active_seats": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        1740,
+        1570,
+        1130,
+        3560
+      ],
+      "hand": 10
+    },
+    {
+      "actions": 12,
+      "active_seats": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "all_in_seats": [],
+      "dealer": 2,
+      "end_chips": [
+        1680,
+        1510,
+        830,
+        3980
+      ],
+      "hand": 11
+    },
+    {
+      "actions": 13,
+      "active_seats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        1660,
+        1490,
+        870,
+        3980
+      ],
+      "hand": 12
+    },
+    {
+      "actions": 16,
+      "active_seats": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "all_in_seats": [],
+      "dealer": 0,
+      "end_chips": [
+        1615,
+        1625,
+        825,
+        3935
+      ],
+      "hand": 13
+    },
+    {
+      "actions": 16,
+      "active_seats": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        1595,
+        1605,
+        885,
+        3915
+      ],
+      "hand": 14
+    },
+    {
+      "actions": 20,
+      "active_seats": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "all_in_seats": [
+        0,
+        2,
+        3
+      ],
+      "dealer": 2,
+      "end_chips": [
+        0,
+        1525,
+        0,
+        6475
+      ],
+      "hand": 15
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1345,
+        0,
+        6655
+      ],
+      "hand": 16
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1365,
+        0,
+        6635
+      ],
+      "hand": 17
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1345,
+        0,
+        6655
+      ],
+      "hand": 18
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1365,
+        0,
+        6635
+      ],
+      "hand": 19
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1385,
+        0,
+        6615
+      ],
+      "hand": 20
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1365,
+        0,
+        6635
+      ],
+      "hand": 21
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1185,
+        0,
+        6815
+      ],
+      "hand": 22
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1145,
+        0,
+        6855
+      ],
+      "hand": 23
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1165,
+        0,
+        6835
+      ],
+      "hand": 24
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1185,
+        0,
+        6815
+      ],
+      "hand": 25
+    },
+    {
+      "actions": 9,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1145,
+        0,
+        6855
+      ],
+      "hand": 26
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1165,
+        0,
+        6835
+      ],
+      "hand": 27
+    },
+    {
+      "actions": 9,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1265,
+        0,
+        6735
+      ],
+      "hand": 28
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1245,
+        0,
+        6755
+      ],
+      "hand": 29
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1005,
+        0,
+        6995
+      ],
+      "hand": 30
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1105,
+        0,
+        6895
+      ],
+      "hand": 31
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1085,
+        0,
+        6915
+      ],
+      "hand": 32
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1105,
+        0,
+        6895
+      ],
+      "hand": 33
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        925,
+        0,
+        7075
+      ],
+      "hand": 34
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1025,
+        0,
+        6975
+      ],
+      "hand": 35
+    },
+    {
+      "actions": 9,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1065,
+        0,
+        6935
+      ],
+      "hand": 36
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1085,
+        0,
+        6915
+      ],
+      "hand": 37
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1105,
+        0,
+        6895
+      ],
+      "hand": 38
+    },
+    {
+      "actions": 7,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        985,
+        0,
+        7015
+      ],
+      "hand": 39
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        1005,
+        0,
+        6995
+      ],
+      "hand": 40
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        1025,
+        0,
+        6975
+      ],
+      "hand": 41
+    },
+    {
+      "actions": 10,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        945,
+        0,
+        7055
+      ],
+      "hand": 42
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        825,
+        0,
+        7175
+      ],
+      "hand": 43
+    },
+    {
+      "actions": 9,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        885,
+        0,
+        7115
+      ],
+      "hand": 44
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        865,
+        0,
+        7135
+      ],
+      "hand": 45
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        625,
+        0,
+        7375
+      ],
+      "hand": 46
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        645,
+        0,
+        7355
+      ],
+      "hand": 47
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        665,
+        0,
+        7335
+      ],
+      "hand": 48
+    },
+    {
+      "actions": 7,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        545,
+        0,
+        7455
+      ],
+      "hand": 49
+    },
+    {
+      "actions": 11,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        185,
+        0,
+        7815
+      ],
+      "hand": 50
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        205,
+        0,
+        7795
+      ],
+      "hand": 51
+    },
+    {
+      "actions": 9,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        245,
+        0,
+        7755
+      ],
+      "hand": 52
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        65,
+        0,
+        7935
+      ],
+      "hand": 53
+    },
+    {
+      "actions": 7,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [
+        1
+      ],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        130,
+        0,
+        7870
+      ],
+      "hand": 54
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        110,
+        0,
+        7890
+      ],
+      "hand": 55
+    },
+    {
+      "actions": 5,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        150,
+        0,
+        7850
+      ],
+      "hand": 56
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        170,
+        0,
+        7830
+      ],
+      "hand": 57
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        1,
+        3
+      ],
+      "all_in_seats": [],
+      "dealer": 3,
+      "end_chips": [
+        0,
+        150,
+        0,
+        7850
+      ],
+      "hand": 58
+    },
+    {
+      "actions": 8,
+      "active_seats": [
+        3,
+        1
+      ],
+      "all_in_seats": [
+        1
+      ],
+      "dealer": 1,
+      "end_chips": [
+        0,
+        0,
+        0,
+        8000
+      ],
+      "hand": 59
+    }
+  ],
+  "id": "B-6000003-r3",
+  "incomplete_hand": null,
+  "players": [
+    {
+      "actions": {
+        "call": 25,
+        "check": 35,
+        "fold": 3,
+        "raise": 3
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 1,
+      "all_in_calls": 1,
+      "all_in_hands": 1,
+      "all_in_raises": 0,
+      "blind_all_ins": 0,
+      "dealt_hands": 15,
+      "eliminated": true,
+      "elimination_hand": 15,
+      "end_chips": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 1,
+      "identity": "rule1",
+      "labels": {
+        "call": 25,
+        "check": 35,
+        "fold": 3,
+        "raise": 3
+      },
+      "net_chips": -2000,
+      "raw_illegal": 0,
+      "seat": 0,
+      "start_chips": 2000,
+      "strategy": "rule",
+      "style": 0,
+      "teacher_fallbacks": 0,
+      "tournament_win": false
+    },
+    {
+      "actions": {
+        "call": 71,
+        "check": 151,
+        "fold": 9,
+        "raise": 25
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 2,
+      "all_in_calls": 1,
+      "all_in_hands": 2,
+      "all_in_raises": 1,
+      "blind_all_ins": 0,
+      "dealt_hands": 59,
+      "eliminated": true,
+      "elimination_hand": 59,
+      "end_chips": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 0,
+      "identity": "rule2",
+      "labels": {
+        "call": 71,
+        "check": 151,
+        "fold": 9,
+        "raise": 25
+      },
+      "net_chips": -2000,
+      "raw_illegal": 0,
+      "seat": 1,
+      "start_chips": 2000,
+      "strategy": "rule",
+      "style": 1,
+      "teacher_fallbacks": 0,
+      "tournament_win": false
+    },
+    {
+      "actions": {
+        "call": 29,
+        "check": 38,
+        "fold": 2,
+        "raise": 2
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 1,
+      "all_in_calls": 1,
+      "all_in_hands": 1,
+      "all_in_raises": 0,
+      "blind_all_ins": 0,
+      "dealt_hands": 15,
+      "eliminated": true,
+      "elimination_hand": 15,
+      "end_chips": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 0,
+      "identity": "rule3",
+      "labels": {
+        "call": 29,
+        "check": 38,
+        "fold": 2,
+        "raise": 2
+      },
+      "net_chips": -2000,
+      "raw_illegal": 0,
+      "seat": 2,
+      "start_chips": 2000,
+      "strategy": "rule",
+      "style": 2,
+      "teacher_fallbacks": 0,
+      "tournament_win": false
+    },
+    {
+      "actions": {
+        "call": 47,
+        "check": 125,
+        "fold": 6,
+        "raise": 53
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 1,
+      "all_in_calls": 0,
+      "all_in_hands": 1,
+      "all_in_raises": 1,
+      "blind_all_ins": 0,
+      "dealt_hands": 59,
+      "eliminated": false,
+      "elimination_hand": null,
+      "end_chips": 8000,
+      "errors": 0,
+      "facing_all_in_decisions": 2,
+      "identity": "target",
+      "labels": {
+        "call": 47,
+        "check": 125,
+        "fold": 6,
+        "large": 27,
+        "small": 26
+      },
+      "net_chips": 6000,
+      "raw_illegal": 0,
+      "seat": 3,
+      "start_chips": 2000,
+      "strategy": "teacher",
+      "style": null,
+      "teacher_fallbacks": 0,
+      "tournament_win": true
+    }
+  ],
+  "provenance_hash": "abb493acccd2341039f1be4f23ef942723ea300687774cfffb2bca86e27655bd",
+  "rotation": 3,
+  "scenario": "B",
+  "seed": 6000003,
+  "status": "tournament_complete"
+}

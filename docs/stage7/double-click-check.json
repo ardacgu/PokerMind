@@ -1,0 +1,208 @@
+{
+  "equal_to_exactly_one_human_call": true,
+  "state": {
+    "version": 8,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 1980,
+        "bet": 0,
+        "contribution": 20,
+        "in_hand": true,
+        "cards": [
+          "7h",
+          "4s"
+        ],
+        "status": "im Spiel",
+        "dealer": true
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 1980,
+        "bet": 0,
+        "contribution": 20,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 1980,
+        "bet": 0,
+        "contribution": 20,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "gepasst",
+        "dealer": false
+      }
+    ],
+    "board": [
+      "3d",
+      "9d",
+      "As"
+    ],
+    "pot": 60,
+    "actor": 0,
+    "legal": {
+      "fold": false,
+      "call": 0,
+      "raise_min": 20,
+      "raise_max": 1980,
+      "all_in": {
+        "action": "raise",
+        "amount": 1980
+      }
+    },
+    "stage": "Flop",
+    "finished": false,
+    "champion": null,
+    "result": [],
+    "history": [
+      "Blinds 10 / 20 gesetzt.",
+      "Grace passt.",
+      "Du gehst 20 mit.",
+      "Ada geht 10 mit.",
+      "Turing checkt.",
+      "Ada checkt.",
+      "Turing checkt."
+    ],
+    "can_start": false,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 10
+        },
+        {
+          "index": 1,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "blind",
+          "amount": 20
+        },
+        {
+          "index": 2,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "fold",
+          "amount": 0
+        },
+        {
+          "index": 3,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 20
+        },
+        {
+          "index": 4,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "call",
+          "amount": 10
+        },
+        {
+          "index": 5,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 6,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 7,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        }
+      ],
+      "last_actions": {
+        "1": {
+          "index": 6,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        "2": {
+          "index": 7,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        "3": {
+          "index": 2,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "fold",
+          "amount": 0
+        },
+        "0": {
+          "index": 3,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 20
+        }
+      },
+      "pots": [
+        {
+          "index": 0,
+          "amount": 60,
+          "eligible": [
+            1,
+            2,
+            0
+          ]
+        }
+      ],
+      "pending_bets": 0,
+      "awards": [],
+      "bet_label": "Setzen"
+    },
+    "halted": false,
+    "message": null
+  }
+}

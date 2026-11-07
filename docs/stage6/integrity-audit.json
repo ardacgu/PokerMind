@@ -1,0 +1,256 @@
+{
+  "frozen_provenance_files_checked": 312,
+  "original_dataset_hashes_checked": 262,
+  "model_and_teacher_unchanged": true,
+  "sessions_checked": 176,
+  "completed_hands": 12601,
+  "completed_hand_chip_conservation": true,
+  "unique_ids": true,
+  "rule_style_decision_comparisons": 88908,
+  "rule_style_disagreements": 0,
+  "rule_repeats": [
+    {
+      "id": "C-6000001-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000001-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000001-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000001-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000002-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000002-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000002-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000002-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000003-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000003-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000003-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000003-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000004-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000004-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000004-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000004-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000005-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000005-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000005-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000005-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000006-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000006-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000006-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000006-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000007-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000007-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000007-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000007-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000008-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000008-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000008-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000008-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000009-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000009-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000009-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000009-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000010-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000010-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000010-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000010-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000011-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000011-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000011-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000011-r3",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000012-r0",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000012-r1",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000012-r2",
+      "semantic_replay_identical": true
+    },
+    {
+      "id": "C-6000012-r3",
+      "semantic_replay_identical": true
+    }
+  ],
+  "rule_blocks": [
+    {
+      "seed": 6000001,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000002,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000003,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000004,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000005,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000006,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000007,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000008,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000009,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000010,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000011,
+      "physical_trajectories_identical": true
+    },
+    {
+      "seed": 6000012,
+      "physical_trajectories_identical": true
+    }
+  ],
+  "interpretation": "No RuleBot style disagreement on any replayed C decision; cyclic target rotation averages the same zero-sum physical trajectory to zero in every block. Degenerate bootstrap interval is a design symmetry, not universal certainty."
+}

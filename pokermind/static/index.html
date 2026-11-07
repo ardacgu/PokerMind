@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111916"><title>PokerMind · Dein Platz am Tisch</title><link rel="icon" href="/static/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<a class="skip" href="#controls">Zu den Spielaktionen</a>
+<main>
+<header class="topbar"><a class="brand" href="/" aria-label="PokerMind Tisch"><span class="brand-mark" aria-hidden="true">♠</span><span>Poker<span class="brand-light">Mind</span><small>DEIN PLATZ AM TISCH</small></span></a><div class="header-right"><span class="local"><i></i> Lokal & ohne Echtgeld</span><button id="reset" class="quiet" disabled>Neue Partie</button></div></header>
+<section class="table-heading"><div><p class="eyebrow">THE POKER ROOM</p><h1>Texas Hold’em<span class="title-dot">.</span></h1></div><div class="table-meta"><span>No Limit<small>SPIELVARIANTE</small></span><span>10 / 20<small>FESTE BLINDS</small></span><span id="players-count">4 Plätze<small>AM TISCH</small></span></div></section>
+<section class="arena" aria-label="Pokertisch" aria-busy="false">
+<div class="table-rim" aria-hidden="true"><div class="felt"><div class="felt-brand">♠<span>POKERMIND</span></div><div class="table-line"></div></div></div>
+<div id="seats"></div>
+<div class="center"><div class="round"><span class="round-dot"></span><span id="round">Willkommen am Tisch</span></div><div class="pot"><span id="pot-label">GESAMTER POT</span><div><span class="chip-stack" aria-hidden="true"><i></i><i></i><i></i></span><strong id="pot">0</strong></div></div><div id="board" class="cards board" aria-label="Gemeinschaftskarten"></div><div id="pots" class="pot-details"></div><div id="table-result" class="table-result"></div></div>
+</section>
+<section class="controls" id="controls" tabindex="-1" aria-label="Deine Spielaktionen"><div class="turn-heading"><div><p class="eyebrow" id="turn-kicker">DEINE ENTSCHEIDUNG</p><h2 id="turn">Tisch wird geladen …</h2><p id="call-hint">Einen Moment bitte.</p></div><span id="hand-indicator" class="hand-indicator">HAND —</span></div><div id="actions" class="actions"></div><p id="busy-message" role="status" aria-live="polite"></p></section>
+<div id="error" class="error" role="alert" hidden></div><button id="retry" class="quiet" hidden>Erneut verbinden</button>
+<section id="result" class="result" aria-label="Ergebnis" hidden></section>
+<section class="activity" aria-label="Letzte Aktionen"><div class="activity-heading"><span class="eyebrow">AM TISCH</span><span id="activity-note">Deine Partie bleibt lokal.</span></div><div id="recent" class="recent"><span>Eine gute Entscheidung beginnt mit der ersten Hand.</span></div></section>
+<div class="details-grid"><details id="history-details"><summary>Handverlauf <span aria-hidden="true">↗</span></summary><ol id="history"><li>Noch keine Hand gespielt.</li></ol></details><details id="ai-details"><summary><span id="opponent-type">Gegner werden geladen …</span><span aria-hidden="true">ⓘ</span></summary><div id="ai-info"></div></details></div>
+<footer><span><span class="footer-spade" aria-hidden="true">♠</span> Ein Tisch. Vier Plätze. Dein nächster Zug.</span><span>8.000 Chips · Kein Echtgeld</span></footer>
+<p id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+</main>
+<dialog id="reset-dialog" aria-labelledby="reset-title"><form method="dialog"><span class="dialog-icon" aria-hidden="true">♠</span><h2 id="reset-title">Eine neue Partie?</h2><p>Die aktuelle Partie endet. Alle vier Spieler starten wieder mit 2.000 Chips.</p><div><button value="cancel" class="quiet" autofocus>Weiterspielen</button><button value="confirm" class="primary">Neue Partie starten</button></div></form></dialog>
+<script type="module" src="/static/app.js"></script>
+</body></html>

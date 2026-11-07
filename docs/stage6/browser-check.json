@@ -1,0 +1,29 @@
+{
+  "mode": "learned",
+  "version": "imitation-v1",
+  "hands": 1,
+  "commands": 6,
+  "model_decisions": 7,
+  "adapter_fallbacks": 0,
+  "inference_errors": 0,
+  "stacks_at_showdown": [
+    1200,
+    2820,
+    1980,
+    2000
+  ],
+  "winner_seat": 1,
+  "awarded_chips": 1620,
+  "net_chips": 820,
+  "checks": [
+    "actual UI start",
+    "four human calls",
+    "automatic actions from all three trained opponents",
+    "opponent cards masked before showdown",
+    "showdown result",
+    "reset to four stacks of 2000",
+    "no browser warning/error logs"
+  ],
+  "nonblocking_http_note": "favicon.ico returned 404; application routes/assets returned 200",
+  "server_stopped": true
+}

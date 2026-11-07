@@ -1,0 +1,145 @@
+"""Four-seat evaluation adapter. Agents receive only the existing public view."""
+from collections import Counter
+from hashlib import sha256
+from pathlib import Path
+from random import Random
+from time import perf_counter
+from . import __doc__
+from ..game import Game
+from ..agents import RuleBot
+from ..teacher import TeacherAgent, TeacherConfig, candidates
+from ..learning.learned import LearnedAgent, load_resource, PROJECT_ROOT
+from ..views import observe
+
+
+def seed_for(*parts):
+    return int.from_bytes(sha256('|'.join(map(str, parts)).encode()).digest()[:8], 'big')
+
+
+def lineup(scenario, rotation):
+    rosters = {
+        'A': [('target', 'learned', None), ('rule1', 'rule', 0), ('rule2', 'rule', 1), ('rule3', 'rule', 2)],
+        'B': [('target', 'teacher', None), ('rule1', 'rule', 0), ('rule2', 'rule', 1), ('rule3', 'rule', 2)],
+        'C': [('target', 'rule', 0), ('rule1', 'rule', 0), ('rule2', 'rule', 1), ('rule3', 'rule', 2)],
+        'D': [('target', 'learned', None), ('teacher', 'teacher', None), ('rule2', 'rule', 1), ('rule3', 'rule', 2)],
+    }
+    if rotation not in range(4):
+        raise ValueError('Rotation must be 0..3')
+    return sorted([dict(identity=i, strategy=s, style=t, seat=(offset+rotation)%4)
+                   for offset, (i, s, t) in enumerate(rosters[scenario])], key=lambda p:p['seat'])
+
+
+def jobs(config):
+    return [dict(id=f'{scenario}-{seed}-r{r}', scenario=scenario, seed=seed, rotation=r)
+            for scenario, seeds in config['scenarios'].items() for seed in seeds for r in range(4)]
+
+
+def policies_for(roster, job, config):
+    policies = []
+    for p in roster:
+        if p['strategy'] == 'rule':
+            policy = RuleBot(p['style'])
+        elif p['strategy'] == 'teacher':
+            policy = TeacherAgent(seed_for('agent', job['seed'], job['rotation'], p['identity']),
+                                  TeacherConfig(**config['teacher_config']))
+        else:
+            policy = LearnedAgent(load_resource(str((PROJECT_ROOT/config['model']).resolve())))
+        policies.append(policy)
+    return policies
+
+
+def play_session(job, config, policies=None, game=None):
+    """Errors halt a session; only settled hands enter its bankroll outcome."""
+    start = perf_counter()
+    roster = lineup(job['scenario'], job['rotation'])
+    stats = [dict(**p, start_chips=2000, end_chips=2000, net_chips=0, dealt_hands=0,
+                  eliminated=False, elimination_hand=None, tournament_win=False,
+                  actions={}, labels={}, all_in_actions=0, all_in_calls=0, all_in_raises=0,
+                  blind_all_ins=0, all_in_hands=0, facing_all_in_decisions=0,
+                  adapter_fallbacks=0, teacher_fallbacks=0, raw_illegal=0, errors=0) for p in roster]
+    g = game or Game(0)
+    record = dict(**job, status='error', completed_hands=0, champion=None, players=stats,
+                  hands=[], errors=[], incomplete_hand=None)
+    actor = None
+    try:
+        policies = policies or policies_for(roster, job, config)
+        if len(policies) != 4: raise ValueError('Exactly four policies required')
+        for _ in range(config['max_hands']):
+            actor = None
+            before = list(g.stacks)
+            # Independent permutation per block/hand: no strategy RNG can consume it.
+            g._rng = Random(seed_for('deck', job['seed'], g.hand+1))
+            g.start_hand()
+            all_ins = set()
+            for seat in g.seats:
+                idx = g.seats.index(seat)
+                if g.state.status and g.state.stacks[idx] == 0:
+                    stats[seat]['blind_all_ins'] += 1
+                    all_ins.add(seat)
+            hand_actions = 0
+            while g.actor is not None:
+                if hand_actions >= 1000: raise RuntimeError('Hand action limit exceeded')
+                actor = g.actor
+                o = observe(g, actor)
+                own = o['players'][actor]
+                decision = policies[actor].decide(o)
+                kind = 'check' if decision.action == 'call' and o['legal']['call'] == 0 else decision.action
+                cost = (o['legal']['call'] if decision.action == 'call' else
+                        decision.amount-own['bet'] if decision.action == 'raise' else 0)
+                is_all_in = own['stack'] > 0 and cost == own['stack']
+                # PokerKit is the sole legality authority; only successful actions counted.
+                g.act(actor, decision)
+                p = stats[actor]
+                p['actions'][kind] = p['actions'].get(kind, 0)+1
+                info = getattr(policies[actor], 'last_prediction', None)
+                diagnostic = getattr(policies[actor], 'last_diagnostic', None)
+                if info:
+                    label = info['label']
+                    p['adapter_fallbacks'] += int(info['fallback'])
+                    p['raw_illegal'] += int(info['raw_illegal'])
+                elif diagnostic:
+                    label = next((k for k,v in candidates(o, policies[actor].config).items() if v == decision), 'other')
+                    p['teacher_fallbacks'] += int(diagnostic['fallback'])
+                else:
+                    label = kind
+                p['labels'][label] = p['labels'].get(label, 0)+1
+                p['facing_all_in_decisions'] += int(any(q['seat'] != actor and q['in_hand'] and q['stack'] == 0 for q in o['players']))
+                if is_all_in:
+                    all_ins.add(actor)
+                    p['all_in_actions'] += 1
+                    p['all_in_calls' if decision.action == 'call' else 'all_in_raises'] += 1
+                hand_actions += 1
+            if g.state.status: raise RuntimeError('Unsettled hand without actor')
+            if sum(g.stacks) != 8000 or any(v < 0 for v in g.stacks):
+                raise RuntimeError('Chip conservation failure')
+            record['completed_hands'] += 1
+            for seat, p in enumerate(stats):
+                p['dealt_hands'] += int(before[seat] > 0)
+                p['all_in_hands'] += int(seat in all_ins)
+                p['end_chips'] = g.stacks[seat]
+                p['net_chips'] = g.stacks[seat]-p['start_chips']
+                if before[seat] > 0 and g.stacks[seat] == 0:
+                    p['eliminated'] = True
+                    p['elimination_hand'] = g.hand
+            record['hands'].append(dict(hand=g.hand, dealer=g.dealer, active_seats=list(g.seats),
+                                        end_chips=list(g.stacks), actions=hand_actions,
+                                        all_in_seats=sorted(all_ins)))
+            champion = observe(g)['champion']
+            if champion is not None:
+                record['champion'] = champion
+                stats[champion]['tournament_win'] = True
+                record['status'] = 'tournament_complete'
+                break
+        else:
+            record['status'] = 'hand_limit'
+    except Exception as exc:
+        if actor is not None: stats[actor]['errors'] += 1
+        # Never persist exception messages: they could include a private observation.
+        record['errors'].append(dict(type=type(exc).__name__, seat=actor, hand=g.hand))
+        record['incomplete_hand'] = g.hand if g.hand > record['completed_hands'] else None
+    record['elapsed_seconds'] = perf_counter()-start
+    return record
+
+
+def semantic(record):
+    return {k:v for k,v in record.items() if k != 'elapsed_seconds'}

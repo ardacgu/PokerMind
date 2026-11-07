@@ -1,0 +1,2 @@
+# Optional plotting only; not required for gameplay, generation or validation.
+matplotlib==3.9.0

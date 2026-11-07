@@ -1,0 +1,44 @@
+{
+  "completed_hands": 128,
+  "config_hash": "73e8b96b62686ac57941388e9007b4472e251ad554a8f194e3f9a5e8f3332488",
+  "cpu_count": 10,
+  "expected_sessions": 16,
+  "invocations": [
+    {
+      "ended_utc": "2026-11-07T21:33:49.153549+00:00",
+      "finished": 16,
+      "scheduled": 16,
+      "started_utc": "2026-11-07T21:33:44.224738+00:00",
+      "wall_seconds": 4.9288669169764034,
+      "workers": 4
+    }
+  ],
+  "missing_sessions": [],
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "processor": "arm",
+  "provenance_hash": "a91452fc7c092a28ae548b4d89b787c2b7fcef7b04f09537b258550d78ad4edc",
+  "recorded_sessions": 16,
+  "sessions": {
+    "A-6100001-r0": "92403546c20edb6041a3d1b5d44bad967559c48120b884f9d31e97f60482c85f",
+    "A-6100001-r1": "4e6bc864cc6afe2d401dd0846cd9a60b7c7480be048ccc404fe043161df7089c",
+    "A-6100001-r2": "ea11c7b8113130bee0d7a31d509345d709b6a43a3b697f656783023b5bf6bc13",
+    "A-6100001-r3": "d84f179a2cfafafc8d1831475cbf11b3e2ef827849bc4f77aa81d524a4ece0a3",
+    "B-6100001-r0": "c2b371f7e88172bccc8adceba400ccc50bd2a0dc0b0284924379d05d57b41568",
+    "B-6100001-r1": "732ca27ecfe5fb6dafba1027044867f78472d56bcf50b43c30192dae30e95ad1",
+    "B-6100001-r2": "5346e2925d1e8f2bd257d8fcb92c17736610d48e342997d884f25cbc6943f784",
+    "B-6100001-r3": "e0c8bbb240d3a40aa042a2a5594b32e1269255e6dba1aeb6cfebe1275ac3b294",
+    "C-6100001-r0": "9e14f7c7b349a3507b2aadfd049c73af52a0a19b0c048210fdd80ae1ef1a493b",
+    "C-6100001-r1": "00476f47b5c786bb37120019ddaa047d8f1627ca459938319331601facdd2a52",
+    "C-6100001-r2": "398abe8709922fa623742b11748d2a61b272631c6a08ac55c5d945c2cc890409",
+    "C-6100001-r3": "30ee71fd23ecdb86a4a763cef5aa2437509b0d5c6d2cda6aa1fd588682927e9c",
+    "D-6100001-r0": "165509872bd4ca118b69115c802bcdb454e041c526248e0abab77cc79f2b36ad",
+    "D-6100001-r1": "7293d115ef9bbaaa3ead4a2a811aeab9c94fe50b0c3ffbcc67d080489de38699",
+    "D-6100001-r2": "2a354e5a94ae282141af69c1977b892f348382f56b363516fa31aea6eddca37a",
+    "D-6100001-r3": "528018c0ac561b63bd22d6e0f99d507acb71115f7e456d74410bc37ad6f8ef4d"
+  },
+  "status_counts": {
+    "error": 0,
+    "hand_limit": 16,
+    "tournament_complete": 0
+  }
+}

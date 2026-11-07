@@ -1,0 +1,20 @@
+Window: "", App: Google Chrome.
+0 Fenster Zoom: 200 %, Secondary Actions: Raise
+	1 container Zoom: 200 %
+		2 container
+			3 container
+				4 container Zoom: 200 %
+				5 Taste Schrift verkleinern
+				6 Taste Schriftgrad vergrößern
+				7 Taste Zurücksetzen
+8 menu bar
+	9 Chrome
+	10 Datei
+	11 Bearbeiten
+	12 Darstellung
+	13 Verlauf
+	14 Lesezeichen
+	15 Profile
+	16 Tab
+	17 Fenster
+	18 Hilfe

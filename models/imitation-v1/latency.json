@@ -1,0 +1,10 @@
+{
+  "n": 200,
+  "warmup": 10,
+  "load_seconds": 0.09344475000398234,
+  "mean_seconds": 0.012839998929703143,
+  "p95_seconds": 0.013235712199821137,
+  "measurement": "Sequential calls to ModelAgent.decide including feature extraction, predict_proba, legal mapping; first 200 validation observations; ten warmup calls excluded",
+  "environment": "macOS-15.5-arm64-arm-64bit",
+  "processor": "arm"
+}

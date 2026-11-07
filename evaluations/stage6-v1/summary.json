@@ -1,0 +1,737 @@
+{
+  "bootstrap": {
+    "method": "percentile 95%, NumPy default_rng PCG64",
+    "replicates": 10000,
+    "seed": 6600001,
+    "unit": "complete four-rotation seed block"
+  },
+  "mixed": {
+    "rule2": {
+      "actions": {
+        "call": 1423,
+        "check": 2474,
+        "fold": 163,
+        "raise": 553
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 43,
+      "all_in_calls": 35,
+      "all_in_hands": 44,
+      "all_in_raises": 8,
+      "blind_all_ins": 1,
+      "block_means": {
+        "6000001": -2000,
+        "6000002": -2000,
+        "6000003": -2000,
+        "6000004": -2000,
+        "6000005": -2000,
+        "6000006": 835,
+        "6000007": -681.25,
+        "6000008": 0
+      },
+      "caps": 2,
+      "complete_blocks": 8,
+      "completed_hands": 1415,
+      "conditional_win_rate": 0.06666666666666667,
+      "dealt_hands": 1075,
+      "eliminations": 28,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 28,
+      "labels": {
+        "call": 1423,
+        "check": 2474,
+        "fold": 163,
+        "raise": 553
+      },
+      "maximum": 6000,
+      "mean": -1230.78125,
+      "mean_ci95": [
+        -1835.15625,
+        -436.875
+      ],
+      "median": -2000.0,
+      "minimum": -2000,
+      "n": 32,
+      "raw_illegal": 0,
+      "sd": 2185.339019013799,
+      "seats": {
+        "0": {
+          "mean": -1582.5,
+          "median": -2000.0,
+          "n": 8
+        },
+        "1": {
+          "mean": -1000,
+          "median": -2000.0,
+          "n": 8
+        },
+        "2": {
+          "mean": -1340.625,
+          "median": -2000.0,
+          "n": 8
+        },
+        "3": {
+          "mean": -1000,
+          "median": -2000.0,
+          "n": 8
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 2,
+      "tournaments": 30
+    },
+    "rule3": {
+      "actions": {
+        "call": 1053,
+        "check": 1650,
+        "fold": 95,
+        "raise": 387
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 38,
+      "all_in_calls": 35,
+      "all_in_hands": 38,
+      "all_in_raises": 3,
+      "blind_all_ins": 0,
+      "block_means": {
+        "6000001": -2000,
+        "6000002": -2000,
+        "6000003": -2000,
+        "6000004": -2000,
+        "6000005": -2000,
+        "6000006": -2000,
+        "6000007": -1318.75,
+        "6000008": -2000
+      },
+      "caps": 2,
+      "complete_blocks": 8,
+      "completed_hands": 1415,
+      "conditional_win_rate": 0,
+      "dealt_hands": 729,
+      "eliminations": 31,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 38,
+      "labels": {
+        "call": 1053,
+        "check": 1650,
+        "fold": 95,
+        "raise": 387
+      },
+      "maximum": 725,
+      "mean": -1914.84375,
+      "mean_ci95": [
+        -2000.0,
+        -1744.53125
+      ],
+      "median": -2000.0,
+      "minimum": -2000,
+      "n": 32,
+      "raw_illegal": 0,
+      "sd": 481.7164946833355,
+      "seats": {
+        "0": {
+          "mean": -2000,
+          "median": -2000.0,
+          "n": 8
+        },
+        "1": {
+          "mean": -2000,
+          "median": -2000.0,
+          "n": 8
+        },
+        "2": {
+          "mean": -2000,
+          "median": -2000.0,
+          "n": 8
+        },
+        "3": {
+          "mean": -1659.375,
+          "median": -2000.0,
+          "n": 8
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 0,
+      "tournaments": 30
+    },
+    "target": {
+      "actions": {
+        "call": 875,
+        "check": 2092,
+        "fold": 300,
+        "raise": 699
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 50,
+      "all_in_calls": 18,
+      "all_in_hands": 50,
+      "all_in_raises": 32,
+      "blind_all_ins": 0,
+      "block_means": {
+        "6000001": 0,
+        "6000002": 0,
+        "6000003": 2000,
+        "6000004": 0,
+        "6000005": -2000,
+        "6000006": -835,
+        "6000007": 2000,
+        "6000008": 2000
+      },
+      "caps": 2,
+      "complete_blocks": 8,
+      "completed_hands": 1415,
+      "conditional_win_rate": 0.3,
+      "dealt_hands": 1108,
+      "eliminations": 22,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 41,
+      "labels": {
+        "call": 875,
+        "check": 2092,
+        "fold": 300,
+        "large": 409,
+        "small": 290
+      },
+      "maximum": 6000,
+      "mean": 395.625,
+      "mean_ci95": [
+        -604.375,
+        1291.25
+      ],
+      "median": -2000.0,
+      "minimum": -2000,
+      "n": 32,
+      "raw_illegal": 1,
+      "sd": 3654.722916552525,
+      "seats": {
+        "0": {
+          "mean": 0,
+          "median": -2000.0,
+          "n": 8
+        },
+        "1": {
+          "mean": 0,
+          "median": -2000.0,
+          "n": 8
+        },
+        "2": {
+          "mean": 1582.5,
+          "median": 330.0,
+          "n": 8
+        },
+        "3": {
+          "mean": 0,
+          "median": -2000.0,
+          "n": 8
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 9,
+      "tournaments": 30
+    },
+    "teacher": {
+      "actions": {
+        "call": 512,
+        "check": 1273,
+        "fold": 195,
+        "raise": 792
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 37,
+      "all_in_calls": 12,
+      "all_in_hands": 37,
+      "all_in_raises": 25,
+      "blind_all_ins": 0,
+      "block_means": {
+        "6000001": 4000,
+        "6000002": 4000,
+        "6000003": 2000,
+        "6000004": 4000,
+        "6000005": 6000,
+        "6000006": 2000,
+        "6000007": 0,
+        "6000008": 0
+      },
+      "caps": 2,
+      "complete_blocks": 8,
+      "completed_hands": 1415,
+      "conditional_win_rate": 0.6333333333333333,
+      "dealt_hands": 803,
+      "eliminations": 13,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 45,
+      "labels": {
+        "all_in": 5,
+        "call": 512,
+        "check": 1273,
+        "fold": 195,
+        "large": 350,
+        "small": 437
+      },
+      "maximum": 6000,
+      "mean": 2750,
+      "mean_ci95": [
+        1500.0,
+        4000.0
+      ],
+      "median": 6000.0,
+      "minimum": -2000,
+      "n": 32,
+      "raw_illegal": 0,
+      "sd": 3991.9273378867683,
+      "seats": {
+        "0": {
+          "mean": 3000,
+          "median": 6000.0,
+          "n": 8
+        },
+        "1": {
+          "mean": 3000,
+          "median": 6000.0,
+          "n": 8
+        },
+        "2": {
+          "mean": 3000,
+          "median": 6000.0,
+          "n": 8
+        },
+        "3": {
+          "mean": 2000,
+          "median": 2000.0,
+          "n": 8
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 19,
+      "tournaments": 30
+    }
+  },
+  "paired_contrasts": {
+    "A-B": {
+      "block_differences": {
+        "6000001": 902.5,
+        "6000002": -1012,
+        "6000003": -660,
+        "6000004": 0,
+        "6000005": -587.75,
+        "6000006": -815.5,
+        "6000007": 1486,
+        "6000008": 1525,
+        "6000009": 0,
+        "6000010": 1385,
+        "6000011": -1837.5,
+        "6000012": 0
+      },
+      "blocks": 12,
+      "ci95": [
+        -551.8651041666666,
+        631.2411458333331
+      ],
+      "mean": 32.145833333333336
+    },
+    "A-C": {
+      "block_differences": {
+        "6000001": 4902.5,
+        "6000002": 4988,
+        "6000003": 5340,
+        "6000004": 6000,
+        "6000005": 4565.25,
+        "6000006": 4989.5,
+        "6000007": 5486,
+        "6000008": 3525,
+        "6000009": 4000,
+        "6000010": 5385,
+        "6000011": 2162.5,
+        "6000012": 2000
+      },
+      "blocks": 12,
+      "ci95": [
+        3697.0046875,
+        5093.959895833333
+      ],
+      "mean": 4445.3125
+    },
+    "B-C": {
+      "block_differences": {
+        "6000001": 4000,
+        "6000002": 6000,
+        "6000003": 6000,
+        "6000004": 6000,
+        "6000005": 5153,
+        "6000006": 5805,
+        "6000007": 4000,
+        "6000008": 2000,
+        "6000009": 4000,
+        "6000010": 4000,
+        "6000011": 4000,
+        "6000012": 2000
+      },
+      "blocks": 12,
+      "ci95": [
+        3596.0833333333335,
+        5150.564583333331
+      ],
+      "mean": 4413.166666666667
+    },
+    "D learned-teacher": {
+      "block_differences": {
+        "6000001": -4000,
+        "6000002": -4000,
+        "6000003": 0,
+        "6000004": -4000,
+        "6000005": -8000,
+        "6000006": -2835,
+        "6000007": 2000,
+        "6000008": 2000
+      },
+      "blocks": 8,
+      "ci95": [
+        -4604.375,
+        -208.75
+      ],
+      "mean": -2354.375
+    }
+  },
+  "report_runtime": {
+    "matplotlib": "3.9.0",
+    "numpy": "2.4.6",
+    "python": "3.11.9"
+  },
+  "scenarios": {
+    "A": {
+      "actions": {
+        "call": 2696,
+        "check": 6052,
+        "fold": 971,
+        "raise": 1974
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 34,
+      "all_in_calls": 4,
+      "all_in_hands": 35,
+      "all_in_raises": 30,
+      "blind_all_ins": 1,
+      "block_means": {
+        "6000001": 4902.5,
+        "6000002": 4988,
+        "6000003": 5340,
+        "6000004": 6000,
+        "6000005": 4565.25,
+        "6000006": 4989.5,
+        "6000007": 5486,
+        "6000008": 3525,
+        "6000009": 4000,
+        "6000010": 5385,
+        "6000011": 2162.5,
+        "6000012": 2000
+      },
+      "caps": 17,
+      "complete_blocks": 12,
+      "completed_hands": 3720,
+      "conditional_win_rate": 0.967741935483871,
+      "dealt_hands": 3367,
+      "eliminations": 5,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 39,
+      "labels": {
+        "call": 2696,
+        "check": 6052,
+        "fold": 971,
+        "large": 1232,
+        "small": 742
+      },
+      "maximum": 6000,
+      "mean": 4445.3125,
+      "mean_ci95": [
+        3697.0046875,
+        5093.959895833333
+      ],
+      "median": 6000.0,
+      "minimum": -2000,
+      "n": 48,
+      "raw_illegal": 0,
+      "sd": 2568.2430881519813,
+      "seats": {
+        "0": {
+          "mean": 4699.333333333333,
+          "median": 6000.0,
+          "n": 12
+        },
+        "1": {
+          "mean": 4781.75,
+          "median": 6000.0,
+          "n": 12
+        },
+        "2": {
+          "mean": 3516.5,
+          "median": 4760.0,
+          "n": 12
+        },
+        "3": {
+          "mean": 4783.666666666667,
+          "median": 6000.0,
+          "n": 12
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 30,
+      "tournaments": 31
+    },
+    "B": {
+      "actions": {
+        "call": 1390,
+        "check": 3381,
+        "fold": 520,
+        "raise": 1885
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 57,
+      "all_in_calls": 6,
+      "all_in_hands": 58,
+      "all_in_raises": 51,
+      "blind_all_ins": 1,
+      "block_means": {
+        "6000001": 4000,
+        "6000002": 6000,
+        "6000003": 6000,
+        "6000004": 6000,
+        "6000005": 5153,
+        "6000006": 5805,
+        "6000007": 4000,
+        "6000008": 2000,
+        "6000009": 4000,
+        "6000010": 4000,
+        "6000011": 4000,
+        "6000012": 2000
+      },
+      "caps": 9,
+      "complete_blocks": 12,
+      "completed_hands": 2666,
+      "conditional_win_rate": 0.9487179487179487,
+      "dealt_hands": 2037,
+      "eliminations": 9,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 58,
+      "labels": {
+        "all_in": 12,
+        "call": 1390,
+        "check": 3381,
+        "fold": 520,
+        "large": 811,
+        "small": 1062
+      },
+      "maximum": 6000,
+      "mean": 4413.166666666667,
+      "mean_ci95": [
+        3596.0833333333335,
+        5150.564583333331
+      ],
+      "median": 6000.0,
+      "minimum": -2000,
+      "n": 48,
+      "raw_illegal": 0,
+      "sd": 3152.9149723224436,
+      "seats": {
+        "0": {
+          "mean": 4601.666666666667,
+          "median": 6000.0,
+          "n": 12
+        },
+        "1": {
+          "mean": 3717.6666666666665,
+          "median": 6000.0,
+          "n": 12
+        },
+        "2": {
+          "mean": 4000,
+          "median": 6000.0,
+          "n": 12
+        },
+        "3": {
+          "mean": 5333.333333333333,
+          "median": 6000.0,
+          "n": 12
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 37,
+      "tournaments": 39
+    },
+    "C": {
+      "actions": {
+        "call": 8833,
+        "check": 10739,
+        "raise": 2655
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 7,
+      "all_in_calls": 4,
+      "all_in_hands": 7,
+      "all_in_raises": 3,
+      "blind_all_ins": 0,
+      "block_means": {
+        "6000001": 0,
+        "6000002": 0,
+        "6000003": 0,
+        "6000004": 0,
+        "6000005": 0,
+        "6000006": 0,
+        "6000007": 0,
+        "6000008": 0,
+        "6000009": 0,
+        "6000010": 0,
+        "6000011": 0,
+        "6000012": 0
+      },
+      "caps": 48,
+      "complete_blocks": 12,
+      "completed_hands": 4800,
+      "conditional_win_rate": null,
+      "dealt_hands": 4612,
+      "eliminations": 5,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 34,
+      "labels": {
+        "call": 8833,
+        "check": 10739,
+        "raise": 2655
+      },
+      "maximum": 3200,
+      "mean": 0,
+      "mean_ci95": [
+        0.0,
+        0.0
+      ],
+      "median": 90.0,
+      "minimum": -2000,
+      "n": 48,
+      "raw_illegal": 0,
+      "sd": 1235.3137253345808,
+      "seats": {
+        "0": {
+          "mean": 284.1666666666667,
+          "median": 510.0,
+          "n": 12
+        },
+        "1": {
+          "mean": 43.333333333333336,
+          "median": 140.0,
+          "n": 12
+        },
+        "2": {
+          "mean": 12.5,
+          "median": 10.0,
+          "n": 12
+        },
+        "3": {
+          "mean": -340,
+          "median": -550.0,
+          "n": 12
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 0,
+      "tournaments": 0
+    },
+    "D": {
+      "actions": {
+        "call": 875,
+        "check": 2092,
+        "fold": 300,
+        "raise": 699
+      },
+      "adapter_fallbacks": 0,
+      "all_in_actions": 50,
+      "all_in_calls": 18,
+      "all_in_hands": 50,
+      "all_in_raises": 32,
+      "blind_all_ins": 0,
+      "block_means": {
+        "6000001": 0,
+        "6000002": 0,
+        "6000003": 2000,
+        "6000004": 0,
+        "6000005": -2000,
+        "6000006": -835,
+        "6000007": 2000,
+        "6000008": 2000
+      },
+      "caps": 2,
+      "complete_blocks": 8,
+      "completed_hands": 1415,
+      "conditional_win_rate": 0.3,
+      "dealt_hands": 1108,
+      "eliminations": 22,
+      "error_sessions": 0,
+      "errors": 0,
+      "facing_all_in_decisions": 41,
+      "labels": {
+        "call": 875,
+        "check": 2092,
+        "fold": 300,
+        "large": 409,
+        "small": 290
+      },
+      "maximum": 6000,
+      "mean": 395.625,
+      "mean_ci95": [
+        -604.375,
+        1291.25
+      ],
+      "median": -2000.0,
+      "minimum": -2000,
+      "n": 32,
+      "raw_illegal": 1,
+      "sd": 3654.722916552525,
+      "seats": {
+        "0": {
+          "mean": 0,
+          "median": -2000.0,
+          "n": 8
+        },
+        "1": {
+          "mean": 0,
+          "median": -2000.0,
+          "n": 8
+        },
+        "2": {
+          "mean": 1582.5,
+          "median": 330.0,
+          "n": 8
+        },
+        "3": {
+          "mean": 0,
+          "median": -2000.0,
+          "n": 8
+        }
+      },
+      "teacher_fallbacks": 0,
+      "tournament_wins": 9,
+      "tournaments": 30
+    }
+  },
+  "total": {
+    "action_count": 184808,
+    "adapter_fallbacks": 0,
+    "all_invocations_wall_seconds": 199.3102868749993,
+    "errors": 0,
+    "hands": 12601,
+    "missing_sessions": [],
+    "raw_illegal": 1,
+    "sessions": 176,
+    "statuses": {
+      "hand_limit": 76,
+      "tournament_complete": 100
+    },
+    "summed_session_seconds": 779.3462789589539,
+    "teacher_fallbacks": 0,
+    "wall_seconds": 199.16063929203665
+  }
+}

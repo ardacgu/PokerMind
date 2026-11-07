@@ -1,0 +1,1542 @@
+{
+  "side-pots": {
+    "version": 5,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 2500,
+        "bet": 0,
+        "contribution": 1500,
+        "in_hand": true,
+        "cards": [
+          "Ac",
+          "Ad"
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 500,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "All-in",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 1500,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "All-in",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 500,
+        "bet": 0,
+        "contribution": 1500,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": true
+      }
+    ],
+    "board": [
+      "2h",
+      "3h",
+      "7s"
+    ],
+    "pot": 5000,
+    "actor": 0,
+    "legal": {
+      "fold": false,
+      "call": 0,
+      "raise_min": 20,
+      "raise_max": 2500,
+      "all_in": {
+        "action": "raise",
+        "amount": 2500
+      }
+    },
+    "stage": "Flop",
+    "finished": false,
+    "champion": null,
+    "result": [],
+    "history": [
+      "Turing erh\u00f6ht auf 1500.",
+      "Grace geht 1500 mit.",
+      "Du gehst 1490 mit.",
+      "Ada geht 480 mit."
+    ],
+    "can_start": false,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 10
+        },
+        {
+          "index": 1,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 20
+        },
+        {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "raise",
+          "amount": 1500
+        },
+        {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 1500
+        },
+        {
+          "index": 4,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 1490
+        },
+        {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "call",
+          "amount": 480
+        }
+      ],
+      "last_actions": {
+        "0": {
+          "index": 4,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 1490
+        },
+        "1": {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "call",
+          "amount": 480
+        },
+        "2": {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "raise",
+          "amount": 1500
+        },
+        "3": {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 1500
+        }
+      },
+      "pots": [
+        {
+          "index": 0,
+          "amount": 2000,
+          "eligible": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "index": 1,
+          "amount": 3000,
+          "eligible": [
+            0,
+            2,
+            3
+          ]
+        }
+      ],
+      "pending_bets": 0,
+      "awards": [],
+      "bet_label": "Setzen"
+    },
+    "halted": false,
+    "message": null
+  },
+  "side-winners": {
+    "version": 5,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 200,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Ac",
+          "Ad"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 150,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Kc",
+          "Kd"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 200,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Qc",
+          "Qd"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 7450,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Jc",
+          "Jd"
+        ],
+        "status": "bereit",
+        "dealer": true
+      }
+    ],
+    "board": [
+      "2h",
+      "3h",
+      "7s",
+      "8s",
+      "9c"
+    ],
+    "pot": 0,
+    "actor": null,
+    "legal": {
+      "fold": false,
+      "call": null,
+      "raise_min": null,
+      "raise_max": null,
+      "all_in": null
+    },
+    "stage": "Ergebnis",
+    "finished": true,
+    "champion": null,
+    "result": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "awarded": 200,
+        "net": 150
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "awarded": 150,
+        "net": 50
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "awarded": 200,
+        "net": 0
+      }
+    ],
+    "history": [
+      "Turing erh\u00f6ht auf 200.",
+      "Grace geht 200 mit.",
+      "Du gehst 40 mit.",
+      "Ada geht 80 mit."
+    ],
+    "can_start": true,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 10
+        },
+        {
+          "index": 1,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 20
+        },
+        {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "raise",
+          "amount": 200
+        },
+        {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 200
+        },
+        {
+          "index": 4,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 40
+        },
+        {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "call",
+          "amount": 80
+        }
+      ],
+      "last_actions": {
+        "0": {
+          "index": 4,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 40
+        },
+        "1": {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "call",
+          "amount": 80
+        },
+        "2": {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "raise",
+          "amount": 200
+        },
+        "3": {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 200
+        }
+      },
+      "pots": [],
+      "pending_bets": 0,
+      "awards": [
+        {
+          "pot": 0,
+          "amount": 200,
+          "winners": [
+            {
+              "seat": 0,
+              "name": "Du",
+              "amount": 200
+            }
+          ]
+        },
+        {
+          "pot": 1,
+          "amount": 150,
+          "winners": [
+            {
+              "seat": 1,
+              "name": "Ada",
+              "amount": 150
+            }
+          ]
+        },
+        {
+          "pot": 2,
+          "amount": 200,
+          "winners": [
+            {
+              "seat": 2,
+              "name": "Turing",
+              "amount": 200
+            }
+          ]
+        }
+      ],
+      "bet_label": "Setzen"
+    },
+    "halted": false,
+    "message": null
+  },
+  "split": {
+    "version": 17,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "2c",
+          "3c"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "4d",
+          "5d"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "6s",
+          "7s"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "8c",
+          "9c"
+        ],
+        "status": "bereit",
+        "dealer": true
+      }
+    ],
+    "board": [
+      "Ah",
+      "Kh",
+      "Qh",
+      "Jh",
+      "Th"
+    ],
+    "pot": 0,
+    "actor": null,
+    "legal": {
+      "fold": false,
+      "call": null,
+      "raise_min": null,
+      "raise_max": null,
+      "all_in": null
+    },
+    "stage": "Ergebnis",
+    "finished": true,
+    "champion": null,
+    "result": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "awarded": 20,
+        "net": 0
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "awarded": 20,
+        "net": 0
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "awarded": 20,
+        "net": 0
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "awarded": 20,
+        "net": 0
+      }
+    ],
+    "history": [
+      "Turing geht 20 mit.",
+      "Grace geht 20 mit.",
+      "Du gehst 10 mit.",
+      "Ada checkt.",
+      "Du checkst.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Grace checkt.",
+      "Du checkst.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Grace checkt.",
+      "Du checkst.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Grace checkt."
+    ],
+    "can_start": true,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 10
+        },
+        {
+          "index": 1,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 20
+        },
+        {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "call",
+          "amount": 20
+        },
+        {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 20
+        },
+        {
+          "index": 4,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 10
+        },
+        {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 6,
+          "seat": 0,
+          "name": "Du",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 7,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 8,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 9,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 10,
+          "seat": 0,
+          "name": "Du",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 11,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 12,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 13,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 14,
+          "seat": 0,
+          "name": "Du",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 15,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 16,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 17,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        }
+      ],
+      "last_actions": {
+        "0": {
+          "index": 14,
+          "seat": 0,
+          "name": "Du",
+          "kind": "check",
+          "amount": 0
+        },
+        "1": {
+          "index": 15,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        "2": {
+          "index": 16,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        "3": {
+          "index": 17,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        }
+      },
+      "pots": [],
+      "pending_bets": 0,
+      "awards": [
+        {
+          "pot": 0,
+          "amount": 80,
+          "winners": [
+            {
+              "seat": 0,
+              "name": "Du",
+              "amount": 20
+            },
+            {
+              "seat": 1,
+              "name": "Ada",
+              "amount": 20
+            },
+            {
+              "seat": 2,
+              "name": "Turing",
+              "amount": 20
+            },
+            {
+              "seat": 3,
+              "name": "Grace",
+              "amount": 20
+            }
+          ]
+        }
+      ],
+      "bet_label": "Setzen"
+    },
+    "halted": false,
+    "message": null
+  },
+  "champion": {
+    "version": 5,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 8000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Ac",
+          "Ad"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Kc",
+          "Kd"
+        ],
+        "status": "ausgeschieden",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Qc",
+          "Qd"
+        ],
+        "status": "ausgeschieden",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Jc",
+          "Jd"
+        ],
+        "status": "ausgeschieden",
+        "dealer": true
+      }
+    ],
+    "board": [
+      "2h",
+      "3h",
+      "7s",
+      "8s",
+      "9c"
+    ],
+    "pot": 0,
+    "actor": null,
+    "legal": {
+      "fold": false,
+      "call": null,
+      "raise_min": null,
+      "raise_max": null,
+      "all_in": null
+    },
+    "stage": "Ergebnis",
+    "finished": true,
+    "champion": 0,
+    "result": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "awarded": 8000,
+        "net": 6000
+      }
+    ],
+    "history": [
+      "Turing erh\u00f6ht auf 2000.",
+      "Grace geht 2000 mit.",
+      "Du gehst 1990 mit.",
+      "Ada geht 1980 mit."
+    ],
+    "can_start": false,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 10
+        },
+        {
+          "index": 1,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 20
+        },
+        {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "raise",
+          "amount": 2000
+        },
+        {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 2000
+        },
+        {
+          "index": 4,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 1990
+        },
+        {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "call",
+          "amount": 1980
+        }
+      ],
+      "last_actions": {
+        "0": {
+          "index": 4,
+          "seat": 0,
+          "name": "Du",
+          "kind": "call",
+          "amount": 1990
+        },
+        "1": {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "call",
+          "amount": 1980
+        },
+        "2": {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "raise",
+          "amount": 2000
+        },
+        "3": {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 2000
+        }
+      },
+      "pots": [],
+      "pending_bets": 0,
+      "awards": [
+        {
+          "pot": 0,
+          "amount": 8000,
+          "winners": [
+            {
+              "seat": 0,
+              "name": "Du",
+              "amount": 8000
+            }
+          ]
+        }
+      ],
+      "bet_label": "Setzen"
+    },
+    "halted": false,
+    "message": null
+  },
+  "eliminated": {
+    "version": 13,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "2c",
+          "3d"
+        ],
+        "status": "ausgeschieden",
+        "dealer": false
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 2045,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Ac",
+          "Ad"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 1980,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Kc",
+          "Kd"
+        ],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 3975,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [
+          "Qc",
+          "Qd"
+        ],
+        "status": "bereit",
+        "dealer": true
+      }
+    ],
+    "board": [
+      "4h",
+      "7s",
+      "9c",
+      "Ts",
+      "Jh"
+    ],
+    "pot": 0,
+    "actor": null,
+    "legal": {
+      "fold": false,
+      "call": null,
+      "raise_min": null,
+      "raise_max": null,
+      "all_in": null
+    },
+    "stage": "Ergebnis",
+    "finished": true,
+    "champion": null,
+    "result": [
+      {
+        "seat": 1,
+        "name": "Ada",
+        "awarded": 65,
+        "net": 45
+      }
+    ],
+    "history": [
+      "Turing geht 20 mit.",
+      "Grace geht 20 mit.",
+      "Ada checkt.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Grace checkt.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Grace checkt.",
+      "Ada checkt.",
+      "Turing checkt.",
+      "Grace checkt."
+    ],
+    "can_start": true,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 5
+        },
+        {
+          "index": 1,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 20
+        },
+        {
+          "index": 2,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "call",
+          "amount": 20
+        },
+        {
+          "index": 3,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "call",
+          "amount": 20
+        },
+        {
+          "index": 4,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 5,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 6,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 7,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 8,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 9,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 10,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 11,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 12,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        {
+          "index": 13,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        }
+      ],
+      "last_actions": {
+        "0": {
+          "index": 0,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 5
+        },
+        "1": {
+          "index": 11,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "check",
+          "amount": 0
+        },
+        "2": {
+          "index": 12,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "check",
+          "amount": 0
+        },
+        "3": {
+          "index": 13,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "check",
+          "amount": 0
+        }
+      },
+      "pots": [],
+      "pending_bets": 0,
+      "awards": [
+        {
+          "pot": 0,
+          "amount": 65,
+          "winners": [
+            {
+              "seat": 1,
+              "name": "Ada",
+              "amount": 65
+            }
+          ]
+        }
+      ],
+      "bet_label": "Setzen"
+    },
+    "halted": false,
+    "message": null
+  },
+  "heads-up": {
+    "version": 2,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 3990,
+        "bet": 10,
+        "contribution": 10,
+        "in_hand": true,
+        "cards": [
+          "4d",
+          "7h"
+        ],
+        "status": "im Spiel",
+        "dealer": true
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [],
+        "status": "ausgeschieden",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 0,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [],
+        "status": "ausgeschieden",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 3980,
+        "bet": 20,
+        "contribution": 20,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      }
+    ],
+    "board": [],
+    "pot": 30,
+    "actor": 0,
+    "legal": {
+      "fold": true,
+      "call": 10,
+      "raise_min": 40,
+      "raise_max": 4000,
+      "all_in": {
+        "action": "raise",
+        "amount": 4000
+      }
+    },
+    "stage": "Preflop",
+    "finished": false,
+    "champion": null,
+    "result": [],
+    "history": [
+      "Blinds 10 / 20 gesetzt."
+    ],
+    "can_start": false,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "blind",
+          "amount": 20
+        },
+        {
+          "index": 1,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 10
+        }
+      ],
+      "last_actions": {
+        "3": {
+          "index": 0,
+          "seat": 3,
+          "name": "Grace",
+          "kind": "blind",
+          "amount": 20
+        },
+        "0": {
+          "index": 1,
+          "seat": 0,
+          "name": "Du",
+          "kind": "blind",
+          "amount": 10
+        }
+      },
+      "pots": [],
+      "pending_bets": 30,
+      "awards": [],
+      "bet_label": "Erh\u00f6hen auf"
+    },
+    "halted": false,
+    "message": null
+  },
+  "error": {
+    "version": 2,
+    "viewer": 0,
+    "hand": 1,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": true,
+        "cards": [
+          "7h",
+          "4s"
+        ],
+        "status": "im Spiel",
+        "dealer": true
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 1990,
+        "bet": 10,
+        "contribution": 10,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 1980,
+        "bet": 20,
+        "contribution": 20,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": true,
+        "cards": [
+          null,
+          null
+        ],
+        "status": "im Spiel",
+        "dealer": false
+      }
+    ],
+    "board": [],
+    "pot": 30,
+    "actor": 3,
+    "legal": {
+      "fold": false,
+      "call": null,
+      "raise_min": null,
+      "raise_max": null,
+      "all_in": null
+    },
+    "stage": "Preflop",
+    "finished": false,
+    "champion": null,
+    "result": [],
+    "history": [
+      "Blinds 10 / 20 gesetzt."
+    ],
+    "can_start": false,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [
+        {
+          "index": 0,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 10
+        },
+        {
+          "index": 1,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "blind",
+          "amount": 20
+        }
+      ],
+      "last_actions": {
+        "1": {
+          "index": 0,
+          "seat": 1,
+          "name": "Ada",
+          "kind": "blind",
+          "amount": 10
+        },
+        "2": {
+          "index": 1,
+          "seat": 2,
+          "name": "Turing",
+          "kind": "blind",
+          "amount": 20
+        }
+      },
+      "pots": [],
+      "pending_bets": 30,
+      "awards": [],
+      "bet_label": "Erh\u00f6hen auf"
+    },
+    "halted": true,
+    "message": "Gegnerentscheidung fehlgeschlagen. Die Partie wurde angehalten. Der Spielstand bleibt sichtbar; bitte neu starten."
+  },
+  "live": {
+    "version": 1,
+    "viewer": 0,
+    "hand": 0,
+    "players": [
+      {
+        "seat": 0,
+        "name": "Du",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 1,
+        "name": "Ada",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 2,
+        "name": "Turing",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [],
+        "status": "bereit",
+        "dealer": false
+      },
+      {
+        "seat": 3,
+        "name": "Grace",
+        "stack": 2000,
+        "bet": 0,
+        "contribution": 0,
+        "in_hand": false,
+        "cards": [],
+        "status": "bereit",
+        "dealer": false
+      }
+    ],
+    "board": [],
+    "pot": 0,
+    "actor": null,
+    "legal": {
+      "fold": false,
+      "call": null,
+      "raise_min": null,
+      "raise_max": null,
+      "all_in": null
+    },
+    "stage": "Bereit",
+    "finished": false,
+    "champion": null,
+    "result": [],
+    "history": [],
+    "can_start": true,
+    "opponents": {
+      "mode": "learned",
+      "label": "Trainierte KI \u00b7 Random Forest",
+      "version": "imitation-v1"
+    },
+    "table": {
+      "actions": [],
+      "last_actions": {},
+      "pots": [],
+      "pending_bets": 0,
+      "awards": [],
+      "bet_label": "Setzen"
+    },
+    "halted": false,
+    "message": null
+  }
+}

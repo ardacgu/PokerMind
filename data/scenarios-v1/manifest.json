@@ -1,0 +1,18 @@
+{
+  "population": "targeted; not in main splits",
+  "count": 6,
+  "teacher_version": "teacher-2.0.0",
+  "samples": 128,
+  "teacher_seed": 87,
+  "short_call_game_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes": {
+    "README.md": "3d0d0d6f8455c39c833339fdc3c4cea58f53d867d044c3026894ed3522fde3a5",
+    "scenarios.jsonl": "6df1029a58c7e6cdf944fd8b9faf6f375fdc13db74bccaf36062147d78bdd0df"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "runs": [
+    {
+      "start_stacks": [
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "hands": 3,
+      "end_stacks": [
+        1980,
+        2040,
+        2020,
+        1960
+      ],
+      "champion": null
+    },
+    {
+      "start_stacks": [
+        50,
+        100,
+        200,
+        7650
+      ],
+      "hands": 1,
+      "end_stacks": [
+        0,
+        0,
+        0,
+        8000
+      ],
+      "champion": 3
+    },
+    {
+      "start_stacks": [
+        4000,
+        0,
+        0,
+        4000
+      ],
+      "hands": 3,
+      "end_stacks": [
+        4060,
+        0,
+        0,
+        3940
+      ],
+      "champion": null
+    }
+  ],
+  "http_responses_checked": 33,
+  "decisions": 43,
+  "fallbacks": 0,
+  "errors": 0,
+  "engine_errors": 0
+}

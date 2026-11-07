@@ -1,0 +1,10 @@
+{
+  "extracted_project_root": "<PROJECT_ROOT>/work/stage6/zip-check/PokerMind",
+  "runtime": "existing pinned Python 3.11 environment; not a fresh dependency installation",
+  "full_suite_passed": 63,
+  "full_session_replay_id": "A-6000001-r0",
+  "full_session_replay_hands": 76,
+  "semantic_replay_identical": true,
+  "frozen_source_data_model_hashes_match": true,
+  "learned_api_status": 200
+}

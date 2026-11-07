@@ -1,0 +1,30 @@
+# Machine-specific environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.npm/
+.DS_Store
+.idea/
+.vscode/
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Scratch work, locks and local logs
+work/
+*.log
+.run.lock
+*.tmp
+# Release archives are attached to GitHub Releases, not duplicated in Git.
+*.zip
+*.zip.sha256
+# Necessary original runtime for historical evaluation provenance.
+!evaluations/stage6-runtime.zip

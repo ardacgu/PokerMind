@@ -1,0 +1,9 @@
+{
+  "accepted": 20024,
+  "groups_disjoint": true,
+  "full_raw_copies_excluding_ids": 10,
+  "conflicting_feature_patterns": 8,
+  "wall_seconds": 291.7088134288788,
+  "summed_session_seconds": 902.1969642951735,
+  "valid_schema_rows": 20024
+}

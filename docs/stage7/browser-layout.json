@@ -1,0 +1,610 @@
+[
+  {
+    "name": "desktop-1440-preflop",
+    "board": {
+      "bottom": 296.890625,
+      "height": 81,
+      "right": 945,
+      "width": 450,
+      "x": 495,
+      "y": 215.890625
+    },
+    "controls": {
+      "bottom": 720.59375,
+      "height": 215,
+      "right": 1338,
+      "width": 1236,
+      "x": 102,
+      "y": 505.59375
+    },
+    "dpr": 1,
+    "height": 900,
+    "ownCards": {
+      "bottom": 403.59375,
+      "height": 89,
+      "right": 840,
+      "width": 240,
+      "x": 600,
+      "y": 314.59375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "name": "phone-390-all-in",
+    "board": {
+      "bottom": 324.1953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 263.1953125
+    },
+    "controls": {
+      "bottom": 735.984375,
+      "height": 199.1875,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 536.796875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 442.546875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 356.546875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "phone-390-busy",
+    "board": {
+      "bottom": 157.1953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 96.1953125
+    },
+    "controls": {
+      "bottom": 587.984375,
+      "height": 218.1875,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 369.796875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 275.546875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 189.546875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "phone-390-showdown",
+    "board": {
+      "bottom": 157.1953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 96.1953125
+    },
+    "controls": {
+      "bottom": 587.984375,
+      "height": 218.1875,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 369.796875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 275.546875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 189.546875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "laptop-1280-turn",
+    "board": {
+      "bottom": 346.890625,
+      "height": 81,
+      "right": 865,
+      "width": 450,
+      "x": 415,
+      "y": 265.890625
+    },
+    "controls": {
+      "bottom": 752.59375,
+      "height": 205,
+      "right": 1238,
+      "width": 1196,
+      "x": 42,
+      "y": 547.59375
+    },
+    "dpr": 1,
+    "height": 800,
+    "ownCards": {
+      "bottom": 445.59375,
+      "height": 89,
+      "right": 760,
+      "width": 240,
+      "x": 520,
+      "y": 356.59375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "tablet-768-reduced-showdown",
+    "board": {
+      "bottom": 302.890625,
+      "height": 81,
+      "right": 574,
+      "width": 380,
+      "x": 194,
+      "y": 221.890625
+    },
+    "controls": {
+      "bottom": 722.59375,
+      "height": 181,
+      "right": 743,
+      "width": 718,
+      "x": 25,
+      "y": 541.59375
+    },
+    "dpr": 1,
+    "height": 1024,
+    "ownCards": {
+      "bottom": 439.59375,
+      "height": 89,
+      "right": 499,
+      "width": 230,
+      "x": 269,
+      "y": 350.59375
+    },
+    "reducedMotion": true,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "name": "desktop-1440-side-pots",
+    "board": {
+      "bottom": 523.390625,
+      "height": 81,
+      "right": 945,
+      "width": 450,
+      "x": 495,
+      "y": 442.390625
+    },
+    "controls": {
+      "bottom": 977.09375,
+      "height": 215,
+      "right": 1338,
+      "width": 1236,
+      "x": 102,
+      "y": 762.09375
+    },
+    "dpr": 1,
+    "height": 900,
+    "ownCards": {
+      "bottom": 660.09375,
+      "height": 89,
+      "right": 840,
+      "width": 240,
+      "x": 600,
+      "y": 571.09375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "name": "tablet-768-side-pots",
+    "board": {
+      "bottom": 311.390625,
+      "height": 81,
+      "right": 574,
+      "width": 380,
+      "x": 194,
+      "y": 230.390625
+    },
+    "controls": {
+      "bottom": 853.09375,
+      "height": 303,
+      "right": 743,
+      "width": 718,
+      "x": 25,
+      "y": 550.09375
+    },
+    "dpr": 1,
+    "height": 1024,
+    "ownCards": {
+      "bottom": 448.09375,
+      "height": 89,
+      "right": 499,
+      "width": 230,
+      "x": 269,
+      "y": 359.09375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "name": "phone-390-side-pots",
+    "board": {
+      "bottom": 247.6953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 186.6953125
+    },
+    "controls": {
+      "bottom": 798.890625,
+      "height": 324.59375,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 474.296875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 380.046875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 294.046875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "laptop-1280-split-pot",
+    "board": {
+      "bottom": 264.390625,
+      "height": 81,
+      "right": 865,
+      "width": 450,
+      "x": 415,
+      "y": 183.390625
+    },
+    "controls": {
+      "bottom": 629.59375,
+      "height": 124.5,
+      "right": 1238,
+      "width": 1196,
+      "x": 42,
+      "y": 505.09375
+    },
+    "dpr": 1,
+    "height": 800,
+    "ownCards": {
+      "bottom": 403.09375,
+      "height": 89,
+      "right": 760,
+      "width": 240,
+      "x": 520,
+      "y": 314.09375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "desktop-1440-side-winners",
+    "board": {
+      "bottom": 318.890625,
+      "height": 81,
+      "right": 945,
+      "width": 450,
+      "x": 495,
+      "y": 237.890625
+    },
+    "controls": {
+      "bottom": 692.09375,
+      "height": 134.5,
+      "right": 1338,
+      "width": 1236,
+      "x": 102,
+      "y": 557.59375
+    },
+    "dpr": 1,
+    "height": 900,
+    "ownCards": {
+      "bottom": 455.59375,
+      "height": 89,
+      "right": 840,
+      "width": 240,
+      "x": 600,
+      "y": 366.59375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "name": "phone-390-champion",
+    "board": {
+      "bottom": 300.1953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 239.1953125
+    },
+    "controls": {
+      "bottom": 697.390625,
+      "height": 170.59375,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 526.796875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 432.546875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 346.546875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "tablet-768-heads-up",
+    "board": {
+      "bottom": 363.890625,
+      "height": 81,
+      "right": 574,
+      "width": 380,
+      "x": 194,
+      "y": 282.890625
+    },
+    "controls": {
+      "bottom": 905.59375,
+      "height": 303,
+      "right": 743,
+      "width": 718,
+      "x": 25,
+      "y": 602.59375
+    },
+    "dpr": 1,
+    "height": 1024,
+    "ownCards": {
+      "bottom": 500.59375,
+      "height": 89,
+      "right": 499,
+      "width": 230,
+      "x": 269,
+      "y": 411.59375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "name": "tablet-768-controlled-error",
+    "board": {
+      "bottom": 471.890625,
+      "height": 81,
+      "right": 574,
+      "width": 380,
+      "x": 194,
+      "y": 390.890625
+    },
+    "controls": {
+      "bottom": 844.59375,
+      "height": 134,
+      "right": 743,
+      "width": 718,
+      "x": 25,
+      "y": 710.59375
+    },
+    "dpr": 1,
+    "height": 1024,
+    "ownCards": {
+      "bottom": 608.59375,
+      "height": 89,
+      "right": 499,
+      "width": 230,
+      "x": 269,
+      "y": 519.59375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "name": "desktop-1440-live-flop",
+    "board": {
+      "bottom": 523.390625,
+      "height": 81,
+      "right": 945,
+      "width": 450,
+      "x": 495,
+      "y": 442.390625
+    },
+    "controls": {
+      "bottom": 977.09375,
+      "height": 215,
+      "right": 1338,
+      "width": 1236,
+      "x": 102,
+      "y": 762.09375
+    },
+    "dpr": 1,
+    "height": 900,
+    "ownCards": {
+      "bottom": 660.09375,
+      "height": 89,
+      "right": 840,
+      "width": 240,
+      "x": 600,
+      "y": 571.09375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "name": "phone-390-live-flop",
+    "board": {
+      "bottom": 459.6953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 398.6953125
+    },
+    "controls": {
+      "bottom": 1010.890625,
+      "height": 324.59375,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 686.296875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 592.046875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 506.046875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "phone-390-live-showdown",
+    "board": {
+      "bottom": 67.6953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 6.6953125
+    },
+    "controls": {
+      "bottom": 482.484375,
+      "height": 188.1875,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 294.296875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 200.046875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 114.046875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "phone-390-disconnected",
+    "board": {
+      "bottom": 67.6953125,
+      "height": 61,
+      "right": 359,
+      "width": 328,
+      "x": 31,
+      "y": 6.6953125
+    },
+    "controls": {
+      "bottom": 618.890625,
+      "height": 324.59375,
+      "right": 374,
+      "width": 358,
+      "x": 16,
+      "y": 294.296875
+    },
+    "dpr": 1,
+    "height": 844,
+    "ownCards": {
+      "bottom": 200.046875,
+      "height": 86,
+      "right": 301.5,
+      "width": 213,
+      "x": 88.5,
+      "y": 114.046875
+    },
+    "reducedMotion": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "laptop-1280-extracted-showdown",
+    "board": {
+      "bottom": 174.890625,
+      "height": 81,
+      "right": 865,
+      "width": 450,
+      "x": 415,
+      "y": 93.890625
+    },
+    "controls": {
+      "bottom": 540.09375,
+      "height": 124.5,
+      "right": 1238,
+      "width": 1196,
+      "x": 42,
+      "y": 415.59375
+    },
+    "dpr": 1,
+    "height": 800,
+    "ownCards": {
+      "bottom": 313.59375,
+      "height": 89,
+      "right": 760,
+      "width": 240,
+      "x": 520,
+      "y": 224.59375
+    },
+    "reducedMotion": false,
+    "scrollWidth": 1280,
+    "width": 1280
+  }
+]

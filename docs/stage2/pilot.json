@@ -1,0 +1,114 @@
+{
+  "config": {
+    "samples": 128,
+    "small_fraction": 0.5,
+    "large_fraction": 1.0,
+    "small_edge": 0.12,
+    "large_edge": 0.28,
+    "shove_share": 0.85,
+    "shove_stack_pots": 1.5,
+    "call_margin": 0.02,
+    "button_discount": 0.02,
+    "early_street_margin": 0.02
+  },
+  "runs": [
+    {
+      "seed": 41,
+      "teacher_seat": 0,
+      "hands": 12,
+      "actions": 183,
+      "teacher_decisions": 43,
+      "distribution": {
+        "fold": 5,
+        "raise": 12,
+        "call": 26
+      },
+      "fallbacks": 0,
+      "completed": false,
+      "champion": null,
+      "stacks": [
+        5516,
+        0,
+        1072,
+        1412
+      ],
+      "seconds": 2.070490125042852
+    },
+    {
+      "seed": 42,
+      "teacher_seat": 1,
+      "hands": 12,
+      "actions": 158,
+      "teacher_decisions": 42,
+      "distribution": {
+        "call": 26,
+        "fold": 4,
+        "raise": 12
+      },
+      "fallbacks": 0,
+      "completed": false,
+      "champion": null,
+      "stacks": [
+        0,
+        5900,
+        2100,
+        0
+      ],
+      "seconds": 1.6866879579611123
+    },
+    {
+      "seed": 43,
+      "teacher_seat": 2,
+      "hands": 12,
+      "actions": 183,
+      "teacher_decisions": 35,
+      "distribution": {
+        "call": 25,
+        "raise": 6,
+        "fold": 4
+      },
+      "fallbacks": 0,
+      "completed": false,
+      "champion": null,
+      "stacks": [
+        1810,
+        1840,
+        2260,
+        2090
+      ],
+      "seconds": 1.9081757080275565
+    },
+    {
+      "seed": 44,
+      "teacher_seat": 3,
+      "hands": 12,
+      "actions": 170,
+      "teacher_decisions": 16,
+      "distribution": {
+        "fold": 2,
+        "call": 10,
+        "raise": 4
+      },
+      "fallbacks": 0,
+      "completed": false,
+      "champion": null,
+      "stacks": [
+        2315,
+        1910,
+        3775,
+        0
+      ],
+      "seconds": 0.8601317079737782
+    }
+  ],
+  "distribution": {
+    "fold": 15,
+    "raise": 34,
+    "call": 87
+  },
+  "fallbacks": 0,
+  "teacher_decisions": 136,
+  "mean_seconds": 0.047090800527846165,
+  "max_seconds": 0.08920641598524526,
+  "p95_seconds": 0.05586345796473324
+}

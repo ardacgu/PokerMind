@@ -1,0 +1,10 @@
+[project]
+name = "pokermind"
+version = "1.0.0"
+description = "Local four-seat Hold'em teaching project"
+requires-python = ">=3.11,<3.12"
+dependencies = ["pokerkit==0.7.7", "fastapi==0.162.1", "uvicorn==0.54.0", "scikit-learn==1.7.2", "joblib==1.5.2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

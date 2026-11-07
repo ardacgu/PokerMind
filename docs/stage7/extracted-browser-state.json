@@ -1,0 +1,229 @@
+{
+  "version": 10,
+  "viewer": 0,
+  "hand": 1,
+  "players": [
+    {
+      "seat": 0,
+      "name": "Du",
+      "stack": 0,
+      "bet": 0,
+      "contribution": 0,
+      "in_hand": false,
+      "cards": [
+        "6s",
+        "8s"
+      ],
+      "status": "ausgeschieden",
+      "dealer": true
+    },
+    {
+      "seat": 1,
+      "name": "Ada",
+      "stack": 4020,
+      "bet": 0,
+      "contribution": 0,
+      "in_hand": false,
+      "cards": [
+        "Ah",
+        "Td"
+      ],
+      "status": "bereit",
+      "dealer": false
+    },
+    {
+      "seat": 2,
+      "name": "Turing",
+      "stack": 1980,
+      "bet": 0,
+      "contribution": 0,
+      "in_hand": false,
+      "cards": [
+        null,
+        null
+      ],
+      "status": "bereit",
+      "dealer": false
+    },
+    {
+      "seat": 3,
+      "name": "Grace",
+      "stack": 2000,
+      "bet": 0,
+      "contribution": 0,
+      "in_hand": false,
+      "cards": [
+        null,
+        null
+      ],
+      "status": "bereit",
+      "dealer": false
+    }
+  ],
+  "board": [
+    "9h",
+    "5s",
+    "Tc",
+    "Ac",
+    "Kc"
+  ],
+  "pot": 0,
+  "actor": null,
+  "legal": {
+    "fold": false,
+    "call": null,
+    "raise_min": null,
+    "raise_max": null,
+    "all_in": null
+  },
+  "stage": "Ergebnis",
+  "finished": true,
+  "champion": null,
+  "result": [
+    {
+      "seat": 1,
+      "name": "Ada",
+      "awarded": 4020,
+      "net": 2020
+    }
+  ],
+  "history": [
+    "Blinds 10 / 20 gesetzt.",
+    "Grace passt.",
+    "Du gehst 20 mit.",
+    "Ada geht 10 mit.",
+    "Turing checkt.",
+    "Ada erh\u00f6ht auf 60.",
+    "Turing passt.",
+    "Du erh\u00f6hst auf 1980.",
+    "Ada geht 1920 mit."
+  ],
+  "can_start": true,
+  "opponents": {
+    "mode": "learned",
+    "label": "Trainierte KI \u00b7 Random Forest",
+    "version": "imitation-v1"
+  },
+  "table": {
+    "actions": [
+      {
+        "index": 0,
+        "seat": 1,
+        "name": "Ada",
+        "kind": "blind",
+        "amount": 10
+      },
+      {
+        "index": 1,
+        "seat": 2,
+        "name": "Turing",
+        "kind": "blind",
+        "amount": 20
+      },
+      {
+        "index": 2,
+        "seat": 3,
+        "name": "Grace",
+        "kind": "fold",
+        "amount": 0
+      },
+      {
+        "index": 3,
+        "seat": 0,
+        "name": "Du",
+        "kind": "call",
+        "amount": 20
+      },
+      {
+        "index": 4,
+        "seat": 1,
+        "name": "Ada",
+        "kind": "call",
+        "amount": 10
+      },
+      {
+        "index": 5,
+        "seat": 2,
+        "name": "Turing",
+        "kind": "check",
+        "amount": 0
+      },
+      {
+        "index": 6,
+        "seat": 1,
+        "name": "Ada",
+        "kind": "bet",
+        "amount": 60
+      },
+      {
+        "index": 7,
+        "seat": 2,
+        "name": "Turing",
+        "kind": "fold",
+        "amount": 0
+      },
+      {
+        "index": 8,
+        "seat": 0,
+        "name": "Du",
+        "kind": "raise",
+        "amount": 1980
+      },
+      {
+        "index": 9,
+        "seat": 1,
+        "name": "Ada",
+        "kind": "call",
+        "amount": 1920
+      }
+    ],
+    "last_actions": {
+      "1": {
+        "index": 9,
+        "seat": 1,
+        "name": "Ada",
+        "kind": "call",
+        "amount": 1920
+      },
+      "2": {
+        "index": 7,
+        "seat": 2,
+        "name": "Turing",
+        "kind": "fold",
+        "amount": 0
+      },
+      "3": {
+        "index": 2,
+        "seat": 3,
+        "name": "Grace",
+        "kind": "fold",
+        "amount": 0
+      },
+      "0": {
+        "index": 8,
+        "seat": 0,
+        "name": "Du",
+        "kind": "raise",
+        "amount": 1980
+      }
+    },
+    "pots": [],
+    "pending_bets": 0,
+    "awards": [
+      {
+        "pot": 0,
+        "amount": 4020,
+        "winners": [
+          {
+            "seat": 1,
+            "name": "Ada",
+            "amount": 4020
+          }
+        ]
+      }
+    ],
+    "bet_label": "Setzen"
+  },
+  "halted": false,
+  "message": null
+}

@@ -1,0 +1,33 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 6600001,
+  "max_hands": 8,
+  "model": "models/imitation-v1",
+  "scenarios": {
+    "A": [
+      6100001
+    ],
+    "B": [
+      6100001
+    ],
+    "C": [
+      6100001
+    ],
+    "D": [
+      6100001
+    ]
+  },
+  "teacher_config": {
+    "button_discount": 0.02,
+    "call_margin": 0.02,
+    "early_street_margin": 0.02,
+    "large_edge": 0.28,
+    "large_fraction": 1.0,
+    "samples": 128,
+    "shove_share": 0.85,
+    "shove_stack_pots": 1.5,
+    "small_edge": 0.12,
+    "small_fraction": 0.5
+  },
+  "version": "evaluation-1.0.0"
+}

@@ -1,0 +1,41 @@
+{
+  "counts": {
+    "train": {
+      "large": 1371,
+      "fold": 1792,
+      "call": 3157,
+      "check": 5453,
+      "small": 2368,
+      "all_in": 15
+    },
+    "validation": {
+      "call": 617,
+      "check": 1084,
+      "large": 273,
+      "fold": 348,
+      "small": 487,
+      "all_in": 2
+    },
+    "test": {
+      "fold": 397,
+      "small": 556,
+      "call": 674,
+      "check": 1149,
+      "large": 277,
+      "all_in": 4
+    }
+  },
+  "rows": {
+    "train": 14156,
+    "validation": 2811,
+    "test": 3057
+  },
+  "sessions": {
+    "train": 176,
+    "validation": 38,
+    "test": 38
+  },
+  "features": 54,
+  "all_hashes_verified": true,
+  "disjoint": true
+}

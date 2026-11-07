@@ -1,0 +1,32 @@
+No broken requirements found.
+....................................................................     [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.11/site-packages/fastapi/testclient.py:1
+  <FRESH_COPY>/.venv/lib/python3.11/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+68 passed, 1 warning in 20.16s
+✔ cards have suit and rank names, masked cards contain no face (0.409125ms)
+✔ quick sizes are integer legal raise-to totals including call (0.313375ms)
+✔ amount field rejects empty, fractional and out-of-range values (0.06825ms)
+✔ terminal, halted, eliminated and active copy follows actual state (21.20025ms)
+✔ duplicate and stale commands blocked, transition remains locked (2.0745ms)
+✔ failed POST refreshes without retrying action (0.156125ms)
+✔ unreachable refresh locks commands until explicitly reconnected (0.078958ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 63.835541
+{
+  "frozen_files_verified": 562,
+  "teacher_decisions": 20024,
+  "features": 54,
+  "evaluation_sessions": 176,
+  "evaluation_hands": 12601,
+  "current_document_links": "passed"
+}

@@ -1,0 +1,14 @@
+{
+  "fresh_venv": true,
+  "uses_extracted_source_and_model": true,
+  "working_directory_independent": true,
+  "mode": {
+    "mode": "learned",
+    "label": "Trainierte KI \u00b7 Random Forest",
+    "version": "imitation-v1"
+  },
+  "decisions": 1,
+  "fallbacks": 0,
+  "errors": 0,
+  "extracted_server_http_status": 200
+}
