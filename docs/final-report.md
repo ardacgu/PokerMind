@@ -26,7 +26,15 @@ The independent fresh installation passed **68 Python tests and seven JavaScript
 
 The copied server completed a real browser hand: start → Call 45 → legal All-in to 2,000 → five-card showdown. All three trained opponents acted; Ada received 6,020 chips, final stacks [0, 6020, 1980, 0]. Opponent cards were hidden preflop, and folded Turing stayed concealed at showdown. Confirmed reset restored all four stacks to 2,000. There were **6 model decisions, 0 fallbacks, 0 errors** and no captured browser warnings/errors. [Browser evidence](stage8/fresh-browser-check.json) and [screenshot](stage8/fresh-browser-showdown.png). Initial navigation occurred before cold startup finished; retry after readiness succeeded.
 
-GitHub publication and remote CI are verified separately below; they are not inferred from local tests.
+The main checkout independently repeated all 75 tests with zero failures. The public Ubuntu GitHub Actions run also passed 68 Python and seven JavaScript tests, dependency consistency and the frozen-artifact/document verification. [Initial successful remote run](https://github.com/ardacgu/PokerMind/actions/runs/42422707979), [CI evidence](stage8/ci-check.json).
+
+## Public repository and release
+
+**Public repository:** [ardacgu/PokerMind](https://github.com/ardacgu/PokerMind). The authenticated owner, successful push and public visibility were confirmed. An anonymous codeload download of the initial submission commit was CRC-checked and all **707 files** compared byte-for-byte, including the 19,672,230-byte selected model, all data and evaluation artifacts. [Public-source verification](stage8/public-source-check.json).
+
+**Release entry:** [v1.0.0](https://github.com/ardacgu/PokerMind/releases/tag/v1.0.0). The release procedure requires another successful workflow for the final documentation/release commit, then an annotated tag and an attached portable ZIP plus SHA-256 file. The final tag, download URLs, asset digest and latest CI conclusion are independently checked when publishing; the release page and [workflow page](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml) expose the actual final state. No paid service or external deployment is used.
+
+The ZIP builder checks CRC, unique member names and equality to every reviewed source file. Documentation-only changes after the fresh-copy test do not alter the frozen runtime. The release inventory excludes private prefixes, local logs, environments and scratch copies. The project's license decision remains explicitly open.
 
 The independent acceptance copy is created from the reviewed release file set and uses a newly created virtual environment with dependencies installed from `requirements.txt`. It does not borrow the previous `.venv`. Normal pip download/wheel caches are allowed, but installed module origins are checked to belong to the new environment.
 

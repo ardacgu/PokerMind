@@ -1,5 +1,7 @@
 # PokerMind
 
+[![Tests](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml/badge.svg)](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml) · [Repository](https://github.com/ardacgu/PokerMind) · [v1.0.0 release](https://github.com/ardacgu/PokerMind/releases/tag/v1.0.0)
+
 ## 1. Overview
 
 PokerMind is a local **No-Limit Texas Hold'em** school project in AI systems development: one human plays against three trained computer opponents. It combines a rules engine, a self-developed simulation-based TeacherAgent, reproducible supervised learning and an independently evaluated Random Forest. Submission target: **18 December 2026**.
@@ -97,7 +99,14 @@ A separate playing evaluation completed **176 sessions and 12,601 hands**: 100 r
 
 ## 10. Installation
 
-Clone the repository or extract the release ZIP, then enter the `PokerMind` directory. Use Python **3.11**; the saved-model loader checks compatible versions.
+Clone the repository or extract the release ZIP, then enter the `PokerMind` directory.
+
+```bash
+git clone https://github.com/ardacgu/PokerMind.git
+cd PokerMind
+```
+
+ Use Python **3.11**; the saved-model loader checks compatible versions.
 
 ```bash
 python3.11 -m venv .venv

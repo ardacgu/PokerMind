@@ -1,23 +1,23 @@
-> Historical snapshot at the end of Stage 7. Relative links refer to its original location; use the current README for navigation and commands.
+> Historical snapshot at the end of Stage 7. Relative links were adjusted for this archive location; use the current README for commands.
 
 # PokerMind
 
 A local, four-seat No-Limit Texas Hold'em application for a school project in AI systems development. One human plays against three **trained Random Forest opponents** using the frozen `imitation-v1` model. RuleBot and Teacher modes remain explicitly configurable. The model imitates a heuristic teacher and does not learn during play. The GitHub submission deadline is **18 December 2026**; this repository has not been published yet.
 
-![PokerMind Stage 7 live table](docs/stage7/desktop-1440-live-flop.png)
+![PokerMind Stage 7 live table](../../docs/stage7/desktop-1440-live-flop.png)
 
 ## Stage 7 — professional local poker interface
 
 A responsive green-felt table, readable cards, public seat actions, side-pot and payout details, comfortable legal bet sizing, keyboard support and reduced motion are now available. All three opponents still use the unchanged trained Random Forest. **75 tests pass (68 Python + 7 JavaScript)**; real browser checks cover desktop, laptop, tablet, phone and actual 200% Chrome zoom.
 
-[UI and verification report](docs/ui-report.md) · [screenshot gallery](docs/stage7/screenshots.html) · [integrity audit](docs/stage7/integrity-check.json). Prior reports below are historical milestones. No model, Teacher, rules, data/splits or Stage 6 result changed.
+[UI and verification report](../../docs/ui-report.md) · [screenshot gallery](../../docs/stage7/screenshots.html) · [integrity audit](../../docs/stage7/integrity-check.json). Prior reports below are historical milestones. No model, Teacher, rules, data/splits or Stage 6 result changed.
 
 
 ## Stage 6 — measured playing performance
 
 The independent evaluation is complete: **176 sessions, 12,601 hands**, 100 regular tournament finishes, 76 hand limits, no errors. Against three rule opponents, Learned averaged **+4,445.31 chips** and Teacher **+4,413.17**. Their paired gap (+32.15; 95% block interval −551.87 to +631.24) was unresolved. The supplementary mixed table favored Teacher, with only eight independent blocks. These bounded tournament results are distinct from **78.70% Teacher-label accuracy** and do not establish optimal poker.
 
-[English evaluation report](docs/evaluation-report.md) · [machine-readable results](evaluations/stage6-v1/summary.json) · [run manifest](evaluations/stage6-v1/manifest.json) · [configuration](experiments/evaluation-v1.json). **63 tests passed at Stage 6**. Frozen model, Teacher, data/splits and browser functions are preserved. Earlier stage reports below remain historical evidence.
+[English evaluation report](../../docs/evaluation-report.md) · [machine-readable results](../../evaluations/stage6-v1/summary.json) · [run manifest](../../evaluations/stage6-v1/manifest.json) · [configuration](../../experiments/evaluation-v1.json). **63 tests passed at Stage 6**. Frozen model, Teacher, data/splits and browser functions are preserved. Earlier stage reports below remain historical evidence.
 
 ```bash
 # The old checkpoint fingerprint includes the old UI. Reconstruct its exact runtime:
@@ -89,7 +89,7 @@ tests/             Rule integration and API regression tests
 docs/              Architecture, CRISP-DM and verification evidence
 ```
 
-See [architecture and rules](docs/architecture.md), [CRISP-DM and AI plan](docs/crisp-dm.md), and the [test report](docs/test-report.md). No dataset or trained model is claimed in stage 1. The repository includes a GitHub Actions test workflow; a remote repository, public release, and project license remain decisions for the project owners.
+See [architecture and rules](../../docs/architecture.md), [CRISP-DM and AI plan](../../docs/crisp-dm.md), and the [test report](../../docs/test-report.md). No dataset or trained model is claimed in stage 1. The repository includes a GitHub Actions test workflow; a remote repository, public release, and project license remain decisions for the project owners.
 
 ## Stage 2 — TeacherAgent available
 
@@ -100,13 +100,13 @@ POKERMIND_BOTS=teacher POKERMIND_SAMPLES=128 POKERMIND_TEACHER_SEED=1 \
   python -m uvicorn pokermind.server:app --host 127.0.0.1 --port 8000
 ```
 
-The baseline remains available explicitly; since stage 5, learned opponents are the browser default. See [Teacher strategy and reproducible commands](docs/teacher.md) and [stage 2 test/pilot report](docs/stage2-report.md). Stage 1 evidence above is historical; the current suite has 36 passing tests. The earlier baseline cutoff was investigated and the same game completes at hand 3,289 when permitted to continue.
+The baseline remains available explicitly; since stage 5, learned opponents are the browser default. See [Teacher strategy and reproducible commands](../../docs/teacher.md) and [stage 2 test/pilot report](../../docs/stage2-report.md). Stage 1 evidence above is historical; the current suite has 36 passing tests. The earlier baseline cutoff was investigated and the same game completes at hand 3,289 when permitted to continue.
 
 ## Stage 3 — simulated imitation data
 
 Stage 3 adds a shared inference-time feature extractor, canonical action mapping, atomic session checkpoints, fixed session-level splits, strict model-data loading and full-data validation. The learning target is our heuristic Teacher's action, **not a proven optimal move**. No model is trained yet.
 
-See [feature/action schema and commands](docs/data-schema.md) and [data quality report](docs/data-quality.md). The natural dataset is in `data/main-v1`; pilot diagnostics and targeted scenarios are separate. Never flatten teacher diagnostics into model inputs. Scaling or learned feature selection must be fitted on training groups only in stage 4.
+See [feature/action schema and commands](../../docs/data-schema.md) and [data quality report](../../docs/data-quality.md). The natural dataset is in `data/main-v1`; pilot diagnostics and targeted scenarios are separate. Never flatten teacher diagnostics into model inputs. Scaling or learned feature selection must be fitted on training groups only in stage 4.
 
 ## Stage 4 — trained imitation model
 
@@ -119,7 +119,7 @@ python -m pokermind.learning.inference --model models/imitation-v1 --observation
 python -m pokermind.learning.evaluate_saved --model models/imitation-v1 --data data/main-v1
 ```
 
-See the [training report](docs/training-report.md), [Model Card](docs/model-card.md), and `models/imitation-v1/metadata.json`. The package includes pinned scientific-library dependencies. Only load trusted local joblib artifacts. The current suite has 45 passing tests. Teacher imitation accuracy is not evidence of optimal poker or superior playing strength; stage 5 handles game integration and further evaluation.
+See the [training report](../../docs/training-report.md), [Model Card](../../docs/model-card.md), and `models/imitation-v1/metadata.json`. The package includes pinned scientific-library dependencies. Only load trusted local joblib artifacts. The current suite has 45 passing tests. Teacher imitation accuracy is not evidence of optimal poker or superior playing strength; stage 5 handles game integration and further evaluation.
 
 ## Stage 5 — browser deployment
 
@@ -134,4 +134,4 @@ POKERMIND_BOTS=learned POKERMIND_MODEL=models/imitation-v1 \
 
 During requests the UI locks its controls. The server lock and version token serialize actions, reject duplicate/stale commands and prevent pre-reset commands affecting a reset game. Unexpected bot errors halt the table with HTTP 503 and a generic public message; valid previous actions and chips remain visible. Only reset is accepted while halted. Restart/fix the model if the error persists. Adapter fallbacks remain legal and are counted separately from errors; shutdown logs contain aggregate counts only, not observations or model scores.
 
-See [integration report](docs/integration-report.md). The suite now has 51 passing tests. The default simulator/data-generator behavior remains explicit and unchanged. Model strength comparison belongs to stage 6; the sparse standalone all-in class remains a limitation.
+See [integration report](../../docs/integration-report.md). The suite now has 51 passing tests. The default simulator/data-generator behavior remains explicit and unchanged. Model strength comparison belongs to stage 6; the sparse standalone all-in class remains a limitation.

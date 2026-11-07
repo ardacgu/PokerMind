@@ -1,4 +1,4 @@
-> Historical snapshot at the end of Stage 7. Relative links refer to its original location; use the current README for navigation and commands.
+> Historical snapshot at the end of Stage 7. Relative links were adjusted for this archive location; use the current README for commands.
 
 # Architecture, rules and privacy
 
@@ -43,7 +43,7 @@ Only one local user/table/process is supported. There is no persistence, authent
 
 ## Stage 2 extension
 
-`teacher/` adds independent card sampling, public counterfactual pot-accounting features, versioned action selection and offline diagnostics. The game's actual rule decisions and payouts remain exclusively PokerKit's. `Game` accepts policy instances; the server's environment configuration can select Teacher opponents. The simulator can replace one chosen seat. Observations now also include public per-hand contributions and live-in-hand flags. See [Teacher specification](teacher.md) for all formulas, assumptions and privacy constraints. Baseline policies and the moving-button convention are unchanged.
+`teacher/` adds independent card sampling, public counterfactual pot-accounting features, versioned action selection and offline diagnostics. The game's actual rule decisions and payouts remain exclusively PokerKit's. `Game` accepts policy instances; the server's environment configuration can select Teacher opponents. The simulator can replace one chosen seat. Observations now also include public per-hand contributions and live-in-hand flags. See [Teacher specification](../teacher.md) for all formulas, assumptions and privacy constraints. Baseline policies and the moving-button convention are unchanged.
 
 ## Stage 4 extension
 
@@ -72,6 +72,6 @@ The browser now uses semantic HTML and two native ES modules. `ui.mjs` contains 
 
 Every rendered command captures its state version. The gate locks during fetch and a short visual transition, rejects duplicate/stale local commands and never retries a POST. An uncertain request refreshes with GET; failed refresh enters an offline state until explicit reconnect. The server's original lock/version/legality enforcement remains authoritative. Rendering restores keyboard orientation without stealing focus from information disclosures. Reset uses a native dialog whose return value is cleared on each open.
 
-The production app exposes no fixture route. `scripts/stage7_browser_fixtures.py` explicitly registers one only when launched for local QA. It constructs engine states for rare-case display checks; fixed cards never enter public JSON before legal exposure. See [Stage 7 report](ui-report.md) for browser evidence and limitations.
+The production app exposes no fixture route. `scripts/stage7_browser_fixtures.py` explicitly registers one only when launched for local QA. It constructs engine states for rare-case display checks; fixed cards never enter public JSON before legal exposure. See [Stage 7 report](../ui-report.md) for browser evidence and limitations.
 
 The Stage 6 runtime is archived separately because its provenance fingerprint included static UI files. Current UI changes must not be merged into old evaluation checkpoints under the original fingerprint. Frozen results, model bytes, data, Teacher and game rules remain unchanged.

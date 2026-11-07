@@ -1,4 +1,4 @@
-> Historical snapshot at the end of Stage 7. Relative links refer to its original location; use the current README for navigation and commands.
+> Historical snapshot at the end of Stage 7. Relative links were adjusted for this archive location; use the current README for commands.
 
 # CRISP-DM — development history and current evaluation
 
@@ -42,7 +42,7 @@ Project: PokerMind, AI Systems Development. GitHub submission target: 18 Decembe
 
 ## Stage 2 update — 7 November 2026
 
-The previous stage 1 entries above are retained as historical milestones. Stage 2 now implements a separate, versioned `TeacherAgent`, public contribution/eligibility features, independent uniform Monte Carlo sampling, legal candidate construction and offline diagnostics. Game rules and baseline opponents remain intact. See [teacher specification](teacher.md) and [stage 2 verification](stage2-report.md).
+The previous stage 1 entries above are retained as historical milestones. Stage 2 now implements a separate, versioned `TeacherAgent`, public contribution/eligibility features, independent uniform Monte Carlo sampling, legal candidate construction and offline diagnostics. Game rules and baseline opponents remain intact. See [teacher specification](../teacher.md) and [stage 2 verification](../stage2-report.md).
 
 Business understanding: imitation targets are explicitly example decisions, not optimal play. Data understanding: 32 bounded diagnostic records expose schema and assumptions; this is not a representative dataset. Preparation: tested privacy, pot accounting, reproducibility and legal action mapping establish the collector seam. Modeling: no model trained. Evaluation: 36 passing tests and four seat-rotated pilots, with measured latency and zero observed fallbacks; strength superiority is unproven. Deployment: Teacher is selectable at the local table via environment configuration and in the simulator via CLI.
 
@@ -52,7 +52,7 @@ Stage 3 is training-data generation: version schemas and seeds, generate diverse
 
 Stage 3 implements and executes a session-checkpointed data pipeline and an inference-time feature allowlist. Pilot-only label-stability analysis precedes the frozen main configuration. Public card/game features are separated from teacher Monte Carlo diagnostics, target labels, seeds and future outcomes. Natural sessions preserve stacks and end cleanly at a winner or 12-hand cutoff. Session-level train/validation/test assignment is frozen without label balancing; targeted rare cases remain a separate scenario set.
 
-Data understanding/preparation now include complete schema validation, legal-target checks, duplicate/family overlap auditing, sample-noise investigation, class/street/position/stack distributions and hashed provenance. See [actual data quality results](data-quality.md) and [feature/action contract](data-schema.md). Original stage 1/2 reports are historical evidence, not descriptions of the newest dataset state.
+Data understanding/preparation now include complete schema validation, legal-target checks, duplicate/family overlap auditing, sample-noise investigation, class/street/position/stack distributions and hashed provenance. See [actual data quality results](../data-quality.md) and [feature/action contract](../data-schema.md). Original stage 1/2 reports are historical evidence, not descriptions of the newest dataset state.
 
 No Decision Tree or Random Forest has been fitted. Stage 4 must load only the allowlisted features, fit learned preprocessing on train only, select settings on validation and reserve test for final comparisons. Interpret agreement as imitation of a noisy heuristic teacher, not evidence of optimal poker or improved playing strength.
 
@@ -60,7 +60,7 @@ No Decision Tree or Random Forest has been fitted. Stage 4 must load only the al
 
 Modeling: trained DummyClassifier(prior), six Decision Trees and six Random Forests under a predeclared 12-candidate budget plus baseline. All fits and balanced class weights use train only; no fitted preprocessing is necessary. The common allowlisted observation extractor and legal probability adapter are reused in inference. No datasets or split assignments were modified.
 
-Evaluation: selected each family finalist and overall winner by validation filtered five-class Macro-F1, then saved artifacts, hashes and selection before evaluating the locked test set. All six classes, raw and filtered metrics, support, confusion matrices, street performance, illegal proposals, fallbacks and latency are reported. The selected weighted Random Forest is the exact train-only tested artifact, not refitted on train+validation. See [training report](training-report.md) and [Model Card](model-card.md).
+Evaluation: selected each family finalist and overall winner by validation filtered five-class Macro-F1, then saved artifacts, hashes and selection before evaluating the locked test set. All six classes, raw and filtered metrics, support, confusion matrices, street performance, illegal proposals, fallbacks and latency are reported. The selected weighted Random Forest is the exact train-only tested artifact, not refitted on train+validation. See [training report](../training-report.md) and [Model Card](../model-card.md).
 
 The earlier pilot cannot estimate general label-noise rates or an accuracy ceiling. Sparse standalone all_in support and simulation/teacher assumptions constrain conclusions. No model playing-strength claim follows. Deployment preparation includes checked local model loading and observation-only inference; browser integration and opponent-play evaluation remain stage 5 work.
 
@@ -76,11 +76,11 @@ Independently evaluated the frozen deployed model, unchanged Teacher and rule ba
 
 Executed **176 sessions / 12,601 hands** in **199.16 seconds**: 100 actual tournament finishes, 76 hand limits, zero errors. Main Learned and Teacher means were +4,445.31 and +4,413.17 chips. The paired difference interval crosses zero, so no difference is resolved against rule opponents. The supplementary mixed table suggests a Teacher advantage, with only eight independent blocks. The control's exact zero block means were traced to behavioral/rotation symmetry. Bootstrap resamples complete seed blocks; hands and rotated sessions are not treated as independent trials.
 
-[Evaluation report](evaluation-report.md) separates observations, plausible explanations and unsupported claims, covers actions/all-ins, conditional tournament wins, positional variation and uncertainty. Label accuracy remains an imitation metric; simulated bankroll performance is opponent/horizon dependent; optimal poker is not demonstrated. Model and Teacher weaknesses are recorded without changing the selected artifact or development splits. Integrity audits, 63 passing tests, API acceptance and a small actual browser flow verify preservation of deployment behavior. Stage 7 is reserved for browser UI/function improvements; none were introduced here.
+[Evaluation report](../evaluation-report.md) separates observations, plausible explanations and unsupported claims, covers actions/all-ins, conditional tournament wins, positional variation and uncertainty. Label accuracy remains an imitation metric; simulated bankroll performance is opponent/horizon dependent; optimal poker is not demonstrated. Model and Teacher weaknesses are recorded without changing the selected artifact or development splits. Integrity audits, 63 passing tests, API acceptance and a small actual browser flow verify preservation of deployment behavior. Stage 7 is reserved for browser UI/function improvements; none were introduced here.
 
 
 ## Stage 7 — Deployment usability and technical acceptance
 
 Completed a responsive local poker interface with clear legal actions, raise-to sizing, public table/payout details, keyboard focus, reduced motion and controlled reconnect behavior. The deployed frozen Random Forest still drives all three opponents; no modeling, fitting, data changes or revised playing-strength claims occurred.
 
-Acceptance evidence consists of 68 passing Python tests (all 63 earlier tests retained), seven JavaScript tests, actual desktop/mobile-viewport/200%-zoom browser flows, separately labeled engine fixtures, and a tested portable extraction. These checks evaluate usability and integration correctness, not statistical poker strength. All Stage 6 measurements and their uncertainty remain unchanged. See [UI verification report](ui-report.md). Stage 8 remains final QA and repository publication; no GitHub publication occurred in Stage 7.
+Acceptance evidence consists of 68 passing Python tests (all 63 earlier tests retained), seven JavaScript tests, actual desktop/mobile-viewport/200%-zoom browser flows, separately labeled engine fixtures, and a tested portable extraction. These checks evaluate usability and integration correctness, not statistical poker strength. All Stage 6 measurements and their uncertainty remain unchanged. See [UI verification report](../ui-report.md). Stage 8 remains final QA and repository publication; no GitHub publication occurred in Stage 7.

@@ -1,0 +1,33 @@
+{
+  "repository_isolated": true,
+  "indexed_files": 707,
+  "uncompressed_bytes": 209137360,
+  "largest_files": [
+    {
+      "file": "data/main-v1/raw.jsonl",
+      "bytes": 43309369
+    },
+    {
+      "file": "data/main-v1/diagnostics.jsonl",
+      "bytes": 20756725
+    },
+    {
+      "file": "models/imitation-v1/selected.joblib",
+      "bytes": 19672230
+    },
+    {
+      "file": "models/imitation-v1/forest-d20-l3-balanced.joblib",
+      "bytes": 19672230
+    },
+    {
+      "file": "data/main-v1/train.jsonl",
+      "bytes": 13496359
+    },
+    {
+      "file": "data/main-v1/test.jsonl",
+      "bytes": 2916125
+    }
+  ],
+  "secret_and_personal_path_matches": 0,
+  "scope": "Exact Git index paths, source bytes and contents of the frozen runtime archive. Pattern scan plus manual review; not a universal secret-detection proof."
+}

@@ -13,7 +13,7 @@ The top-level README, current CRISP-DM report, results summary and reproduction 
 | 7 | Responsive interface | [UI report](../ui-report.md), screenshots and verification evidence |
 | 8 | Submission, fresh installation and publication | [Final report](../final-report.md) |
 
-Stage 7 README, architecture and CRISP-DM snapshots are retained here for development history; links inside those verbatim bodies refer to their original locations. The original Stage 6 source and documentation are preserved in `evaluations/stage6-runtime.zip`. Its runtime fingerprint remains distinct from the current interface.
+Stage 7 README, architecture and CRISP-DM snapshots are retained here for development history; relative links were adjusted to their archive location. The original Stage 6 source and documentation are preserved in `evaluations/stage6-runtime.zip`. Its runtime fingerprint remains distinct from the current interface.
 
 Historical scripts are intentionally retained: they reconstruct experiments, audits and figures. They are not unused application dependencies. No model/data/pilot/session evidence was removed merely because an export duplicates checkpoint information.
 
