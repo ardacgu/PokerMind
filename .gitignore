@@ -28,3 +28,18 @@ work/
 *.zip.sha256
 # Necessary original runtime for historical evaluation provenance.
 !evaluations/stage6-runtime.zip
+
+# Private study material belongs outside the public repository.
+private/
+.private/
+personal/
+study-notes/
+exam-preparation/
+**/muendliche-pruefung*
+**/mündliche-prüfung*
+**/*pruefungsvorbereitung*
+**/*prüfungsvorbereitung*
+**/*lehrerfragen*
+**/*musterantworten*
+**/*oral-exam*
+**/*exam-prep*

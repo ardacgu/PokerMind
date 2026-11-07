@@ -4,6 +4,8 @@ from pathlib import Path
 import re
 import subprocess
 from zipfile import ZipFile
+from fnmatch import fnmatch
+from stage8_package import PRIVATE_NAMES, EXCLUDED
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -12,7 +14,7 @@ def audit():
     assert Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],cwd=ROOT,text=True).strip()).resolve() == ROOT
     names = subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')[:-1]
     assert subprocess.run(['git','diff','--quiet'],cwd=ROOT).returncode == 0, 'Stage reviewed changes before auditing'
-    forbidden = {'.venv','.git','work','node_modules','__pycache__','.pytest_cache'}
+    forbidden = EXCLUDED
     patterns = {'personal_path': rb'/(?:Users|home)/[A-Za-z0-9_.-]+/',
                 'credential': rb'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|sk-[A-Za-z0-9]{24,}|-----BEGIN [A-Z ]*PRIVATE KEY-----'}
     problems=[]; sizes=[]
@@ -22,6 +24,8 @@ def audit():
             problems.append((name,'excluded file type'))
         if len(data)>=100*1024*1024:problems.append((name,'GitHub file size limit'))
         if name.endswith('.zip') and name!='evaluations/stage6-runtime.zip':problems.append((name,'redundant archive'))
+        if any(fnmatch(Path(name).name.casefold(), pattern) for pattern in PRIVATE_NAMES):
+            problems.append((name,'private study material'))
         for label,pattern in patterns.items():
             if re.search(pattern,data):problems.append((name,label))
         if name.endswith('.zip'):
