@@ -1,0 +1,21 @@
+✔ presentation defaults are local learning, normal speed and muted sound (1.00825ms)
+✔ tempo, reduced movement and skip only change presentation duration (0.123334ms)
+✔ cancel finishes an active transition promptly and cannot fire it twice (0.128333ms)
+✔ automatic steps remain serial and a reset invalidates the pending loop (1.754041ms)
+✔ automatic playback stops at the human turn and never queues future actions (0.124042ms)
+✔ sound stays silent until user unlocks, and respects mute and zero volume (0.158083ms)
+✔ cards have suit and rank names, masked cards contain no face (0.461958ms)
+✔ quick sizes are integer legal raise-to totals including call (0.320167ms)
+✔ amount field rejects empty, fractional and out-of-range values (0.076167ms)
+✔ terminal, halted, eliminated and active copy follows actual state (21.955042ms)
+✔ duplicate and stale commands blocked, transition remains locked (1.545916ms)
+✔ failed POST refreshes without retrying action (0.141666ms)
+✔ unreachable refresh locks commands until explicitly reconnected (0.077041ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55.727209

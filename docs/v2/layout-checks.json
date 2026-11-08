@@ -1,0 +1,166 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "parts": {
+      "topCaption": {
+        "x": 629,
+        "y": 289.09375,
+        "w": 182,
+        "h": 19
+      },
+      "round": {
+        "x": 495,
+        "y": 317.09375,
+        "w": 450,
+        "h": 12
+      },
+      "board": {
+        "x": 495,
+        "y": 393.390625,
+        "w": 450,
+        "h": 81
+      },
+      "winner": {
+        "x": 515,
+        "y": 487.390625,
+        "w": 410,
+        "h": 16.5
+      },
+      "humanCards": {
+        "x": 600,
+        "y": 521.09375,
+        "w": 240,
+        "h": 89
+      }
+    },
+    "overlapTop": false,
+    "overlapBoard": false,
+    "overlapWinner": false
+  },
+  {
+    "name": "laptop",
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "parts": {
+      "topCaption": {
+        "x": 549,
+        "y": 289.09375,
+        "w": 182,
+        "h": 19
+      },
+      "round": {
+        "x": 415,
+        "y": 317.09375,
+        "w": 450,
+        "h": 12
+      },
+      "board": {
+        "x": 415,
+        "y": 393.390625,
+        "w": 450,
+        "h": 81
+      },
+      "winner": {
+        "x": 435,
+        "y": 487.390625,
+        "w": 410,
+        "h": 16.5
+      },
+      "humanCards": {
+        "x": 520,
+        "y": 521.09375,
+        "w": 240,
+        "h": 89
+      }
+    },
+    "overlapTop": false,
+    "overlapBoard": false,
+    "overlapWinner": false
+  },
+  {
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "parts": {
+      "topCaption": {
+        "x": 306.5,
+        "y": 321.09375,
+        "w": 155,
+        "h": 19
+      },
+      "round": {
+        "x": 194,
+        "y": 366.09375,
+        "w": 380,
+        "h": 12
+      },
+      "board": {
+        "x": 194,
+        "y": 442.390625,
+        "w": 380,
+        "h": 81
+      },
+      "winner": {
+        "x": 194,
+        "y": 536.390625,
+        "w": 380,
+        "h": 16.5
+      },
+      "humanCards": {
+        "x": 269,
+        "y": 571.09375,
+        "w": 230,
+        "h": 89
+      }
+    },
+    "overlapTop": false,
+    "overlapBoard": false,
+    "overlapWinner": false
+  },
+  {
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "parts": {
+      "topCaption": {
+        "x": 143.5,
+        "y": 284.296875,
+        "w": 103,
+        "h": 22
+      },
+      "round": {
+        "x": 31,
+        "y": 328.296875,
+        "w": 328,
+        "h": 13.5
+      },
+      "board": {
+        "x": 31,
+        "y": 398.6953125,
+        "w": 328,
+        "h": 61
+      },
+      "winner": {
+        "x": 31,
+        "y": 467.6953125,
+        "w": 328,
+        "h": 15
+      },
+      "humanCards": {
+        "x": 88.5,
+        "y": 506.046875,
+        "w": 213,
+        "h": 86
+      }
+    },
+    "overlapTop": false,
+    "overlapBoard": false,
+    "overlapWinner": false
+  }
+]

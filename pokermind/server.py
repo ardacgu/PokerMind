@@ -19,7 +19,7 @@ async def lifespan(app):
 
 app = FastAPI(title='PokerMind', docs_url=None, redoc_url=None, lifespan=lifespan)
 app.mount('/static', StaticFiles(directory=Path(__file__).parent / 'static'), name='static')
-def configured_game():
+def configured_game(game_class=Game):
     import os
     from .teacher import TeacherAgent, TeacherConfig
     from .learning.learned import LearnedAgent, load_resource, PROJECT_ROOT
@@ -39,7 +39,7 @@ def configured_game():
         resource=load_resource(str(path.resolve()))
         policies=[None]+[LearnedAgent(resource) for _ in range(3)]
         info=dict(mode=mode,label='Trainierte KI · Random Forest',version=resource.name)
-    result=Game(policies=policies)
+    result=game_class(policies=policies)
     result.bot_info=info
     return result
 
@@ -98,5 +98,45 @@ def command(body: Command, request: Request):
 
 def log_telemetry():
     import logging
-    totals={key:sum(getattr(p,key,0) for p in game.policies if p is not None) for key in ('decisions','fallbacks','errors')}
-    logging.getLogger('uvicorn.error').info('PokerMind aggregate inference counters: %s',totals)
+    for label,table in [('compatibility',game),('live',globals().get('live_game'))]:
+        if table is None:continue
+        totals={key:sum(getattr(p,key,0) for p in table.policies if p is not None) for key in ('decisions','fallbacks','errors')}
+        logging.getLogger('uvicorn.error').info('PokerMind %s aggregate inference counters: %s',label,totals)
+
+
+# Browser 2.0: separate incremental table; the frozen compatibility API and
+# simulation seam above retain their original contract and regression tests.
+from .live import LiveGame, live_view
+from pydantic import StrictBool
+live_game = configured_game(LiveGame)
+
+class LiveCommand(Command):
+    epoch: str
+    action: Literal['start', 'reset', 'step', 'fold', 'call', 'raise']
+    learning: StrictBool = True
+
+@app.get('/api/live/state')
+def live_state(learning: bool = True):
+    with lock:
+        return live_view(live_game, learning)
+
+@app.post('/api/live/command')
+def live_command(body: LiveCommand, request: Request):
+    origin=request.headers.get('origin')
+    if origin and origin!=str(request.base_url).rstrip('/'):
+        raise HTTPException(403,'Fremder Ursprung ist nicht erlaubt.')
+    with lock:
+        if body.epoch!=live_game.epoch or body.version!=live_game.version:
+            raise HTTPException(409,'Veralteter Spielstand. Ansicht wurde aktualisiert.')
+        if live_game.halted and body.action!='reset':
+            raise HTTPException(503,live_game.failure_message)
+        try:
+            if body.action=='reset':live_game.reset()
+            elif body.action=='start':live_game.start_hand()
+            elif body.action=='step':live_game.step()
+            else:live_game.act(0,Decision(body.action,body.amount))
+        except BotExecutionError:
+            raise HTTPException(503,live_game.failure_message) from None
+        except ValueError as exc:
+            raise HTTPException(400,str(exc)) from None
+        return live_view(live_game,body.learning)

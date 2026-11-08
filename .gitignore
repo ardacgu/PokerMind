@@ -43,3 +43,7 @@ exam-preparation/
 **/*musterantworten*
 **/*oral-exam*
 **/*exam-prep*
+
+# Local browser recordings and generated test traces; curated evidence is in docs/v2.
+.playwright-cli/
+output/
