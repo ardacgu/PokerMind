@@ -27,6 +27,8 @@ def fixture(name:str):
   elif name=='champion':
    g=fixed_live([4000,4000],['AcAd','KcKd'],'2c3d7h8s9c')
    g.act(g.actor,Decision('raise',4000));finish_calls(g)
+  elif name=='eliminated':
+   g=LiveGame(9);g.stacks=[0,2000,2000,4000];g.start_hand();finish_calls(g)
   elif name=='heads-up':
    g=LiveGame(9);g.stacks=[4000,0,0,4000];g.start_hand();settle_to_actor(g)
   else:raise HTTPException(404,'Unknown QA scenario')

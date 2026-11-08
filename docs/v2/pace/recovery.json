@@ -1,0 +1,11 @@
+{
+  "resetDuringThinking": true,
+  "offlineRecovery": true,
+  "skip": true,
+  "keyboardRaise": true,
+  "reloadDuringPlay": true,
+  "reducedMotion": true,
+  "preferencesPersisted": true,
+  "realisticMode": true,
+  "chips": 8000
+}

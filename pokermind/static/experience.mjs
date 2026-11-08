@@ -2,15 +2,26 @@
 export const defaults={speed:'normal',motion:true,learning:true,sound:false,volume:0.25};
 export function settings(storage) {
   try {const p=JSON.parse(storage.getItem('pokermind.presentation.v2')||'{}');
-    return {speed:p.speed==='fast'?'fast':'normal',motion:p.motion!==false,learning:p.learning!==false,sound:p.sound===true,volume:typeof p.volume==='number'?Math.max(0,Math.min(1,p.volume)):0.25};
+    return {speed:['fast','instant'].includes(p.speed)?p.speed:'normal',motion:p.motion!==false,learning:p.learning!==false,sound:p.sound===true,volume:typeof p.volume==='number'?Math.max(0,Math.min(1,p.volume)):0.25};
   } catch {return {...defaults};}
 }
 export function saveSettings(storage,p) {try{storage.setItem('pokermind.presentation.v2',JSON.stringify(p));}catch{/* Private/blocked storage is optional. */}}
+// Reading time is independent of motion. Reduced motion must not rush decisions.
+export const TIMING=Object.freeze({
+ normal:Object.freeze({think:1250,action:1750,deal:280,board:650,blind:550,show:850,award:900,complete:4000,collect:550,credit:100,prepare:60,hand_start:250}),
+ fast:Object.freeze({think:300,action:600,deal:100,board:220,blind:180,show:250,award:300,complete:1200,collect:180,credit:30,prepare:10,hand_start:80}),
+ instant:Object.freeze({think:0,action:0,deal:0,board:0,blind:0,show:0,award:0,complete:0,collect:0,credit:0,prepare:0,hand_start:0})
+});
+export const isAction=event=>['call','raise','bet','fold','check'].includes(event?.kind);
 export function duration(event,p,reduced=false,skip=false) {
-  if(skip)return 0;
-  const ms={deal:140,board:260,blind:260,call:420,raise:420,bet:420,fold:420,check:350,show:380,award:540,complete:350,collect:260,credit:70,prepare:25,hand_start:120};
-  const base=ms[event?.kind]??80;
-  return Math.round(base*(p.speed==='fast'?0.24:1)*(reduced||!p.motion?0.7:1));
+ if(skip)return 0;
+ const timing=TIMING[p.speed]||TIMING.normal;
+ return timing[isAction(event)?'action':event?.kind]??0;
+}
+export const thinkingTime=(p,skip=false)=>skip?0:(TIMING[p.speed]||TIMING.normal).think;
+export function movementTime(event,p,reduced=false,skip=false){
+ if(reduced||!p.motion||skip||p.speed==='instant')return 0;
+ return Math.min(duration(event,p),event?.kind==='complete'?4000:700);
 }
 export class Clock {
   constructor(){this.finish=null;}

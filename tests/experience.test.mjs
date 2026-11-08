@@ -10,8 +10,8 @@ test('presentation defaults are local learning, normal speed and muted sound',()
 });
 test('tempo, reduced movement and skip only change presentation duration',()=>{
  const p=settings(null),e={kind:'raise'};
- assert.equal(duration(e,p),420);assert.ok(duration(e,{...p,speed:'fast'})<duration(e,p));
- assert.ok(duration(e,p,true)<duration(e,p));assert.equal(duration(e,p,false,true),0);
+ assert.equal(duration(e,p),1750);assert.ok(duration(e,{...p,speed:'fast'})<duration(e,p));
+ assert.equal(duration(e,p,true),duration(e,p));assert.equal(duration(e,p,false,true),0);
  assert.ok(duration(e,{...p,motion:false})>0); // readable event text without movement
 });
 test('cancel finishes an active transition promptly and cannot fire it twice',async()=>{

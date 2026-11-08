@@ -1,0 +1,421 @@
+{
+  "phases": [
+    {
+      "ms": 0,
+      "phase": "idle",
+      "active": null,
+      "text": "Dein Tisch ist bereit.",
+      "controlMode": "ready",
+      "victory": false
+    },
+    {
+      "ms": 63.10000002384186,
+      "phase": "engine",
+      "active": null,
+      "text": "Hand 1 · die Blinds werden gesetzt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 313.7000000476837,
+      "phase": "engine",
+      "active": null,
+      "text": "Ada setzt den Blind: 10 Chips.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 881.2000000476837,
+      "phase": "engine",
+      "active": null,
+      "text": "Turing setzt den Blind: 20 Chips.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 1448.2000000476837,
+      "phase": "engine",
+      "active": null,
+      "text": "Ada erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 1730.7000000476837,
+      "phase": "engine",
+      "active": null,
+      "text": "Turing erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 2030.6000000238419,
+      "phase": "engine",
+      "active": null,
+      "text": "Grace erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 2316.300000011921,
+      "phase": "engine",
+      "active": null,
+      "text": "Du erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 2598.5,
+      "phase": "engine",
+      "active": null,
+      "text": "Ada erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 2897.5,
+      "phase": "engine",
+      "active": null,
+      "text": "Turing erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 3180.600000023842,
+      "phase": "engine",
+      "active": null,
+      "text": "Grace erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 3481.100000023842,
+      "phase": "engine",
+      "active": null,
+      "text": "Du erhält eine Karte.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 3765.900000035763,
+      "phase": "thinking",
+      "active": "3",
+      "text": "Grace ist am Zug …",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 5047.700000047684,
+      "phase": "action",
+      "active": "3",
+      "text": "Grace passt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 6799.400000035763,
+      "phase": "idle",
+      "active": "0",
+      "text": "Grace passt.",
+      "controlMode": "human",
+      "victory": false
+    },
+    {
+      "ms": 7113.200000047684,
+      "phase": "action",
+      "active": "0",
+      "text": "Du gehst 20 mit.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 8865,
+      "phase": "thinking",
+      "active": "1",
+      "text": "Ada ist am Zug …",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 10147.100000023842,
+      "phase": "action",
+      "active": "1",
+      "text": "Ada erhöht auf 50.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 11898.100000023842,
+      "phase": "thinking",
+      "active": "2",
+      "text": "Turing ist am Zug …",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 13197.700000047684,
+      "phase": "action",
+      "active": "2",
+      "text": "Turing geht 30 mit.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 14948.600000023842,
+      "phase": "idle",
+      "active": "0",
+      "text": "Turing geht 30 mit.",
+      "controlMode": "human",
+      "victory": false
+    },
+    {
+      "ms": 15013.400000035763,
+      "phase": "action",
+      "active": "0",
+      "text": "Du gehst 30 mit.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 16764.200000047684,
+      "phase": "engine",
+      "active": null,
+      "text": "Die Einsätze werden eingesammelt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 17330.200000047684,
+      "phase": "engine",
+      "active": null,
+      "text": "Die nächste Gemeinschaftskarte wird vorbereitet.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 17397.30000001192,
+      "phase": "engine",
+      "active": null,
+      "text": "Flop wird aufgedeckt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 19381,
+      "phase": "thinking",
+      "active": "1",
+      "text": "Ada ist am Zug …",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 20663.600000023842,
+      "phase": "action",
+      "active": "1",
+      "text": "Ada setzt 150.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 22414.700000047684,
+      "phase": "thinking",
+      "active": "2",
+      "text": "Turing ist am Zug …",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 23701.5,
+      "phase": "action",
+      "active": "2",
+      "text": "Turing passt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 25465.600000023842,
+      "phase": "idle",
+      "active": "0",
+      "text": "Turing passt.",
+      "controlMode": "human",
+      "victory": false
+    },
+    {
+      "ms": 25528.400000035763,
+      "phase": "action",
+      "active": "0",
+      "text": "Du gehst 150 mit.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 27280.80000001192,
+      "phase": "engine",
+      "active": null,
+      "text": "Die Einsätze werden eingesammelt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 27845.200000047684,
+      "phase": "engine",
+      "active": null,
+      "text": "Die nächste Gemeinschaftskarte wird vorbereitet.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 27913.900000035763,
+      "phase": "engine",
+      "active": null,
+      "text": "Turn wird aufgedeckt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 28583.200000047684,
+      "phase": "thinking",
+      "active": "1",
+      "text": "Ada ist am Zug …",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 29863.700000047684,
+      "phase": "action",
+      "active": "1",
+      "text": "Ada setzt 450.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 31615.30000001192,
+      "phase": "idle",
+      "active": "0",
+      "text": "Ada setzt 450.",
+      "controlMode": "human",
+      "victory": false
+    },
+    {
+      "ms": 31680,
+      "phase": "action",
+      "active": "0",
+      "text": "Du gehst 450 mit.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 33430.700000047684,
+      "phase": "engine",
+      "active": null,
+      "text": "Die Einsätze werden eingesammelt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 33997,
+      "phase": "engine",
+      "active": null,
+      "text": "Die nächste Gemeinschaftskarte wird vorbereitet.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 34063.5,
+      "phase": "engine",
+      "active": null,
+      "text": "River wird aufgedeckt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 34714.5,
+      "phase": "thinking",
+      "active": "1",
+      "text": "Ada ist am Zug …",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 36013.40000003576,
+      "phase": "action",
+      "active": "1",
+      "text": "Ada setzt 675.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 37766.30000001192,
+      "phase": "idle",
+      "active": "0",
+      "text": "Ada setzt 675.",
+      "controlMode": "human",
+      "victory": false
+    },
+    {
+      "ms": 37830,
+      "phase": "action",
+      "active": "0",
+      "text": "Du gehst 675 mit.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 39580.700000047684,
+      "phase": "engine",
+      "active": null,
+      "text": "Die Einsätze werden eingesammelt.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 40146.80000001192,
+      "phase": "engine",
+      "active": null,
+      "text": "Ada zeigt die Karten.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 41013.5,
+      "phase": "engine",
+      "active": null,
+      "text": "Du legst die Karten verdeckt ab.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 41881.40000003576,
+      "phase": "engine",
+      "active": null,
+      "text": "Topfauszahlung: Ada 2700 Chips.",
+      "controlMode": "waiting",
+      "victory": false
+    },
+    {
+      "ms": 42800.700000047684,
+      "phase": "engine",
+      "active": null,
+      "text": "Hand abgeschlossen · alle Chips sind ausgezahlt.",
+      "controlMode": "waiting",
+      "victory": true
+    },
+    {
+      "ms": 46812.40000003576,
+      "phase": "idle",
+      "active": null,
+      "text": "Hand abgeschlossen · alle Chips sind ausgezahlt.",
+      "controlMode": "ready",
+      "victory": true
+    }
+  ],
+  "controls": {
+    "minHeight": 228,
+    "maxHeight": 228,
+    "minY": 1128.09375,
+    "maxY": 1128.09375,
+    "replacements": 0,
+    "foreignEnabled": 0
+  },
+  "errors": []
+}

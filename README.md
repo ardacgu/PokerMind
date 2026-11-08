@@ -1,6 +1,6 @@
 # PokerMind
 
-> **PokerMind 2.0 — local development branch.** Real, sequential opponent actions; individual card/chip animations; completed-hand learning/realistic views; sound and tempo controls. [Architecture, operation and tests](docs/pokermind-2.md). The published v1.0.0 release and scientific measurements remain unchanged.
+> **PokerMind 2.0 — local development branch.** Readable three-second opponent turns; stable action controls; player-side hand badges and a persistent central winner display; normal/fast/instant tempo. [Architecture, operation and tests](docs/pokermind-2.md). The published v1.0.0 release and scientific measurements remain unchanged.
 
 [![Tests](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml/badge.svg)](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml) · [Repository](https://github.com/ardacgu/PokerMind) · [v1.0.0 release](https://github.com/ardacgu/PokerMind/releases/tag/v1.0.0)
 
@@ -21,9 +21,9 @@ The model imitates a heuristic teacher. It is not an optimal poker strategy, doe
 
 ## 3. Screenshots
 
-![PokerMind 2.0 live table with concealed opponents](docs/v2/desktop-live-final.png)
+![PokerMind 2.0 live table with concealed opponents](docs/v2/pace/ada-thinking.png)
 
-[2.0 screenshots, full-hand video and acceptance report](docs/v2/acceptance.md). The links below preserve the Stage 7 evidence.
+[Current screenshots, full-hand video and acceptance report](docs/v2/pace/acceptance.md). [Initial 2.0 evidence](docs/v2/acceptance.md). The links below preserve the Stage 7 evidence.
 
 [Mobile side-pot view](docs/stage7/phone-390-side-pots.png) · [Split pot](docs/stage7/laptop-1280-split-pot.png) · [Screenshot gallery](docs/stage7/screenshots.html) · [UI verification](docs/ui-report.md)
 
@@ -103,7 +103,7 @@ A separate playing evaluation completed **176 sessions and 12,601 hands**: 100 r
 
 ## 10. Installation
 
-For this **local 2.0 development version**, extract `PokerMind-2.0-dev.zip` and enter its `PokerMind` directory, or use the local `feature/pokermind-2-experience` branch. It has not been pushed or released. The public clone/release commands below retrieve the published v1.0.0, not this local version. Both versions use the same installation/start commands.
+For this **local 2.0 development version**, extract `PokerMind-2.0-pace.zip` and enter its `PokerMind` directory, or use the local `feature/pokermind-2-experience` branch. It has not been pushed or released. The public clone/release commands below retrieve the published v1.0.0, not this local version. Both versions use the same installation/start commands.
 
 ```bash
 git clone https://github.com/ardacgu/PokerMind.git
@@ -151,7 +151,7 @@ node --test tests/*.test.mjs
 python scripts/v2_verify.py
 ```
 
-The 2.0 local acceptance result is **94 Python + 13 JavaScript tests: 107 passed, zero failed**, including all original 75 rules, privacy, model, evaluation and UI tests. [2.0 acceptance and limitations](docs/v2/acceptance.md). A single preexisting Starlette/httpx deprecation warning is documented. The GitHub workflow uses one standard Ubuntu job with pinned Python/Node versions and action commits; it runs tests and artifact/document checks, not expensive training or a complete evaluation. [Final verification](docs/final-report.md)
+The 2.0 local acceptance result is **94 Python + 20 JavaScript tests: 114 passed, zero failed**, including all original 75 rules, privacy, model, evaluation and UI tests. [Current acceptance and limitations](docs/v2/pace/acceptance.md). A single preexisting Starlette/httpx deprecation warning is documented. The GitHub workflow uses one standard Ubuntu job with pinned Python/Node versions and action commits; it runs tests and artifact/document checks, not expensive training or a complete evaluation. [Final verification](docs/final-report.md)
 
 ## 13. Reproducing experiments
 
