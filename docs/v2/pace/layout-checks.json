@@ -1,0 +1,794 @@
+[
+  {
+    "fixture": "side-pots",
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "victory": {
+      "x": 395,
+      "y": 532.09375,
+      "w": 650,
+      "h": 221.9921875
+    },
+    "badges": [
+      {
+        "x": 232.1171875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 640,
+        "y": 141.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 1047.875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 640,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "side-pots",
+    "name": "laptop",
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "victory": {
+      "x": 315,
+      "y": 532.09375,
+      "w": 650,
+      "h": 221.9921875
+    },
+    "badges": [
+      {
+        "x": 165.3125,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 560,
+        "y": 141.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 954.6796875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 560,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "side-pots",
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "victory": {
+      "x": 60.90234375,
+      "y": 564.09375,
+      "w": 646.1953125,
+      "h": 219.390625
+    },
+    "badges": [
+      {
+        "x": 57.6953125,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 309,
+        "y": 175.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 560.296875,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 309,
+        "y": 831.59375,
+        "w": 150,
+        "h": 48.5
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "side-pots",
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "victory": {
+      "x": 22,
+      "y": 542.296875,
+      "w": 346,
+      "h": 362.7265625
+    },
+    "badges": [
+      {
+        "x": 17.6953125,
+        "y": 204.796875,
+        "w": 104,
+        "h": 56.5
+      },
+      {
+        "x": 143,
+        "y": 166.796875,
+        "w": 104,
+        "h": 56.5
+      },
+      {
+        "x": 268.296875,
+        "y": 209.296875,
+        "w": 104,
+        "h": 52
+      },
+      {
+        "x": 88.5,
+        "y": 945.046875,
+        "w": 213,
+        "h": 52
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "split",
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "victory": {
+      "x": 395,
+      "y": 532.09375,
+      "w": 650,
+      "h": 221.9921875
+    },
+    "badges": [
+      {
+        "x": 232.1171875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 640,
+        "y": 141.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 1047.875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 640,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "split",
+    "name": "laptop",
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "victory": {
+      "x": 315,
+      "y": 532.09375,
+      "w": 650,
+      "h": 221.9921875
+    },
+    "badges": [
+      {
+        "x": 165.3125,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 560,
+        "y": 141.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 954.6796875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 560,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "split",
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "victory": {
+      "x": 60.90234375,
+      "y": 564.09375,
+      "w": 646.1953125,
+      "h": 219.390625
+    },
+    "badges": [
+      {
+        "x": 57.6953125,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 309,
+        "y": 175.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 560.296875,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 309,
+        "y": 831.59375,
+        "w": 150,
+        "h": 48.5
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "split",
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "victory": {
+      "x": 22,
+      "y": 542.296875,
+      "w": 346,
+      "h": 330.7265625
+    },
+    "badges": [
+      {
+        "x": 17.6953125,
+        "y": 209.296875,
+        "w": 104,
+        "h": 52
+      },
+      {
+        "x": 143,
+        "y": 171.296875,
+        "w": 104,
+        "h": 52
+      },
+      {
+        "x": 268.296875,
+        "y": 209.296875,
+        "w": 104,
+        "h": 52
+      },
+      {
+        "x": 88.5,
+        "y": 945.046875,
+        "w": 213,
+        "h": 52
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "fold",
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "victory": {
+      "x": 395,
+      "y": 532.09375,
+      "w": 650,
+      "h": 196.9921875
+    },
+    "badges": [
+      {
+        "x": 224.3828125,
+        "y": 183.09375,
+        "w": 175.46875,
+        "h": 51
+      },
+      {
+        "x": 640,
+        "y": 141.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 1047.875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 640,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "fold",
+    "name": "laptop",
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "victory": {
+      "x": 315,
+      "y": 532.09375,
+      "w": 650,
+      "h": 196.9921875
+    },
+    "badges": [
+      {
+        "x": 157.578125,
+        "y": 183.09375,
+        "w": 175.46875,
+        "h": 51
+      },
+      {
+        "x": 560,
+        "y": 141.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 954.6796875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 560,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "fold",
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "victory": {
+      "x": 60.90234375,
+      "y": 564.09375,
+      "w": 646.1953125,
+      "h": 194.390625
+    },
+    "badges": [
+      {
+        "x": 54.41015625,
+        "y": 217.59375,
+        "w": 156.5703125,
+        "h": 48.5
+      },
+      {
+        "x": 309,
+        "y": 175.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 560.296875,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 309,
+        "y": 831.59375,
+        "w": 150,
+        "h": 48.5
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "fold",
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "victory": {
+      "x": 22,
+      "y": 542.296875,
+      "w": 346,
+      "h": 199.8359375
+    },
+    "badges": [
+      {
+        "x": 17.6953125,
+        "y": 204.796875,
+        "w": 104,
+        "h": 56.5
+      },
+      {
+        "x": 143,
+        "y": 166.796875,
+        "w": 104,
+        "h": 56.5
+      },
+      {
+        "x": 268.296875,
+        "y": 204.796875,
+        "w": 104,
+        "h": 56.5
+      },
+      {
+        "x": 88.5,
+        "y": 945.046875,
+        "w": 213,
+        "h": 52
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "champion",
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "victory": {
+      "x": 395,
+      "y": 532.09375,
+      "w": 650,
+      "h": 196.9921875
+    },
+    "badges": [
+      {
+        "x": 232.1171875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 640,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "champion",
+    "name": "laptop",
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "victory": {
+      "x": 315,
+      "y": 532.09375,
+      "w": 650,
+      "h": 196.9921875
+    },
+    "badges": [
+      {
+        "x": 165.3125,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 560,
+        "y": 787.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "champion",
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "victory": {
+      "x": 60.90234375,
+      "y": 564.09375,
+      "w": 646.1953125,
+      "h": 194.390625
+    },
+    "badges": [
+      {
+        "x": 57.6953125,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 309,
+        "y": 831.59375,
+        "w": 150,
+        "h": 48.5
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "champion",
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "victory": {
+      "x": 22,
+      "y": 542.296875,
+      "w": 346,
+      "h": 199.8359375
+    },
+    "badges": [
+      {
+        "x": 17.6953125,
+        "y": 204.796875,
+        "w": 104,
+        "h": 56.5
+      },
+      {
+        "x": 88.5,
+        "y": 945.046875,
+        "w": 213,
+        "h": 52
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "heads-up",
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "victory": null,
+    "badges": [],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "heads-up",
+    "name": "laptop",
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "victory": null,
+    "badges": [],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "heads-up",
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "victory": null,
+    "badges": [],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "heads-up",
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "victory": null,
+    "badges": [],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "eliminated",
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "victory": {
+      "x": 395,
+      "y": 532.09375,
+      "w": 650,
+      "h": 196.9921875
+    },
+    "badges": [
+      {
+        "x": 232.1171875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 610,
+        "y": 123.59375,
+        "w": 220,
+        "h": 68.5
+      },
+      {
+        "x": 1047.875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "eliminated",
+    "name": "laptop",
+    "width": 1280,
+    "height": 800,
+    "overflow": false,
+    "victory": {
+      "x": 315,
+      "y": 532.09375,
+      "w": 650,
+      "h": 196.9921875
+    },
+    "badges": [
+      {
+        "x": 165.3125,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      },
+      {
+        "x": 530,
+        "y": 123.59375,
+        "w": 220,
+        "h": 68.5
+      },
+      {
+        "x": 954.6796875,
+        "y": 183.09375,
+        "w": 160,
+        "h": 51
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "eliminated",
+    "name": "tablet",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "victory": {
+      "x": 60.90234375,
+      "y": 564.09375,
+      "w": 646.1953125,
+      "h": 194.390625
+    },
+    "badges": [
+      {
+        "x": 57.6953125,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      },
+      {
+        "x": 296.5,
+        "y": 160.59375,
+        "w": 175,
+        "h": 63.5
+      },
+      {
+        "x": 560.296875,
+        "y": 217.59375,
+        "w": 150,
+        "h": 48.5
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  },
+  {
+    "fixture": "eliminated",
+    "name": "phone",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "victory": {
+      "x": 22,
+      "y": 542.296875,
+      "w": 346,
+      "h": 199.8359375
+    },
+    "badges": [
+      {
+        "x": 17.6953125,
+        "y": 204.796875,
+        "w": 104,
+        "h": 56.5
+      },
+      {
+        "x": 143,
+        "y": 153.046875,
+        "w": 104,
+        "h": 70.25
+      },
+      {
+        "x": 268.296875,
+        "y": 204.796875,
+        "w": 104,
+        "h": 56.5
+      }
+    ],
+    "victoryCollisions": 0,
+    "badgeCollisions": 0
+  }
+]

@@ -1,6 +1,8 @@
-# PokerMind
+# PokerMind 2.0
 
-[![Tests](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml/badge.svg)](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml) · [Repository](https://github.com/ardacgu/PokerMind) · [v1.0.0 release](https://github.com/ardacgu/PokerMind/releases/tag/v1.0.0)
+> **PokerMind 2.0 — a readable, interactive local poker experience.** Readable three-second opponent turns; stable action controls; player-side hand badges and a persistent central winner display; normal/fast/instant tempo. [Architecture, operation and tests](docs/pokermind-2.md). The v1.0.0 release remains available; the model and scientific measurements are unchanged.
+
+[![Tests](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml/badge.svg)](https://github.com/ardacgu/PokerMind/actions/workflows/tests.yml) · [Repository](https://github.com/ardacgu/PokerMind) · [v2.0.0 release](https://github.com/ardacgu/PokerMind/releases/tag/v2.0.0) · [Previous v1.0.0 release](https://github.com/ardacgu/PokerMind/releases/tag/v1.0.0)
 
 ## 1. Overview
 
@@ -14,12 +16,20 @@ The model imitates a heuristic teacher. It is not an optimal poker strategy, doe
 - PokerKit-controlled legal actions, all-ins, side pots, split pots, elimination and heads-up play.
 - Three frozen `imitation-v1` LearnedAgents by default; explicit Teacher and rule-based alternatives.
 - Responsive green-felt table, clear cards, public action history, legal bet sizing, keyboard support and reduced motion.
+- Three speeds: **Normal** (default, 1.25 s thinking + 1.75 s action reading), **Schnell** (0.3 + 0.6 s), and **Sofort** (no deliberate waits).
+- A highlighted current opponent, followed by their real action, displayed one server step at a time.
+- Stable action buttons, amount input, slider and presets: retained DOM nodes, disabled during opponent turns, with no animation-driven draft reset.
+- Actual PokerKit hand descriptions above each participating player's cards, with privacy-safe learning and realistic views.
+- A central gold winner display: a four-second Normal celebration, then persistent results until **Nächste Hand**.
+- Every actual split-pot/side-pot recipient and gross receipt, with net hand change displayed separately; fold wins explicitly say **Gewonnen durch Fold**.
 - Protected observations, server-side validation, stale-command rejection and safe reconnect behavior.
 - Included models, datasets, fixed splits, evaluation checkpoints, figures and verification evidence.
 
 ## 3. Screenshots
 
-![Live table with three concealed opponents](docs/stage7/desktop-1440-live-flop.png)
+![PokerMind 2.0 live table with concealed opponents](docs/v2/pace/ada-thinking.png)
+
+[Current screenshots, full-hand video and acceptance report](docs/v2/pace/acceptance.md). [Initial 2.0 evidence](docs/v2/acceptance.md). The links below preserve the Stage 7 evidence.
 
 [Mobile side-pot view](docs/stage7/phone-390-side-pots.png) · [Split pot](docs/stage7/laptop-1280-split-pot.png) · [Screenshot gallery](docs/stage7/screenshots.html) · [UI verification](docs/ui-report.md)
 
@@ -99,11 +109,14 @@ A separate playing evaluation completed **176 sessions and 12,601 hands**: 100 r
 
 ## 10. Installation
 
-Clone the repository or extract the release ZIP, then enter the `PokerMind` directory.
+Download `PokerMind-v2.0.0-cleaned.zip` and its `.sha256` file from the [v2.0.0 release](https://github.com/ardacgu/PokerMind/releases/tag/v2.0.0). Verify it with `shasum -a 256 -c PokerMind-v2.0.0-cleaned.zip.sha256` (or `sha256sum -c` on Linux), extract it and enter the included `PokerMind` directory. The package includes the trained model, frozen datasets, evaluation evidence and documentation; dependencies are installed separately.
+
+Alternatively, clone the repository and select the exact release tag:
 
 ```bash
 git clone https://github.com/ardacgu/PokerMind.git
 cd PokerMind
+git switch --detach v2.0.0
 ```
 
  Use Python **3.11**; the saved-model loader checks compatible versions.
@@ -133,8 +146,9 @@ These environment-prefix examples use a POSIX shell. Only load the included trus
 1. Select **Erste Hand starten** (start first hand). Your seat is at the bottom; gold outlines mark the actor and **D** marks the dealer.
 2. Use **Passen** (fold), **Check**, **Mitgehen** (call), **Setzen** (bet), **Erhöhen auf** (raise to) or **All-in** when offered. Call shows the additional cost.
 3. Raise-to is the **total amount for the current betting street**, not an increment. Enter a whole number within the bounds, use the slider, or choose a clamped preset.
-4. Side-pot labels show live collected layers. **AUSGEZAHLT** and result rows show settled gross receipts and net hand change. Opponent cards appear only when rules permit.
-5. Select **Nächste Hand** to continue. Eliminated humans may watch the remaining players. **Neue Partie** opens a reset confirmation; Escape cancels.
+4. Side-pot labels show live collected layers. **AUSGEZAHLT** and result rows show settled gross receipts and net hand change. During the hand, opponent cards appear only when rules permit. After complete settlement, the default local learning mode also reveals folded hands; disable **Alle Hände nach Spielende anzeigen** for the realistic view. Complete-board combinations come from PokerKit; early fold wins do not invent a runout.
+5. Open **Spielgefühl & Ansicht** to choose Normal, Schnell or Sofort. Reduced motion removes movement while retaining readable Normal pauses. Sound starts off.
+6. Read the hand badges above the players and the central payout display after settlement. Select **Nächste Hand** to continue. Eliminated humans may watch the remaining players. **Neue Partie** opens a reset confirmation; Escape cancels.
 
 The footer shows the actual server opponent mode and expandable model information. Tab/Shift-Tab navigate, Enter/Space activate buttons and arrow keys move the slider. The first skip link leads to actions. System reduced-motion preferences are respected. Phones and high zoom use vertical scrolling. Requests temporarily lock controls; reconnect fetches state without automatically repeating a bet. Server shutdown loses the in-memory game.
 
@@ -143,11 +157,13 @@ The footer shows the actual server opponent mode and expandable model informatio
 ```bash
 python -m pip check
 python -m pytest -q
-node --test tests/ui.test.mjs
-python scripts/stage8_verify.py
+node --test tests/*.test.mjs
+python scripts/v2_verify.py
 ```
 
-The local acceptance baseline is **68 Python + 7 JavaScript tests**, including the original rules, privacy, model, evaluation and UI tests. A single preexisting Starlette/httpx deprecation warning is documented. The GitHub workflow uses one standard Ubuntu job with pinned Python/Node versions and action commits; it runs tests and artifact/document checks, not expensive training or a complete evaluation. [Final verification](docs/final-report.md)
+The 2.0 acceptance suite contains **94 Python + 20 JavaScript tests: 114 passed, zero failed**, including all original 75 rules, privacy, model, evaluation and UI tests. [Current acceptance and limitations](docs/v2/pace/acceptance.md). A single preexisting Starlette/httpx deprecation warning is documented. Browser acceptance covered complete model-driven hands, all three speeds, keyboard entry, reconnect/reload/reset, concealed cards, four viewport sizes and genuine 200% Chrome zoom. Rare split/side-pot, elimination and champion cases used explicitly labeled PokerKit fixtures. [Release verification procedure](docs/v2/release.md).
+
+The GitHub workflow uses one standard Ubuntu job with pinned Python/Node versions and action commits; it runs tests and artifact/document checks, not expensive training or a complete evaluation. [Final verification](docs/final-report.md)
 
 ## 13. Reproducing experiments
 
@@ -186,7 +202,7 @@ All required data and the model are ordinary Git files; no paid storage or Git L
 
 The Teacher assumes uniform unknown opponent holdings, uses finite sampling and ignores future betting when valuing actions. Imitation inherits these assumptions and adds approximation errors. Training states, rare labels, short dataset sessions and a narrow opponent family limit generalization. Small independent evaluation-block counts and high variance constrain performance conclusions.
 
-The application supports one local, in-memory table, fixed blinds and its documented moving-button convention. It has no accounts, persistence, real money or multiplayer. Physical touch devices, screen-reader speech and every browser/OS combination were not tested. Model changes require a new separately documented experiment; the delivered scientific results remain frozen. The owner's project license decision remains open.
+The application supports one local, in-memory table, fixed blinds and its documented moving-button convention. It has no accounts, persistence, real money or multiplayer. Small or short windows require vertical scrolling. Smartphones were emulated, not physically tested. Screen-reader speech and every browser/OS combination were not tested. Model changes require a new separately documented experiment; the delivered scientific results remain frozen. The owner's project license decision remains open.
 
 ## 16. CRISP-DM development process
 

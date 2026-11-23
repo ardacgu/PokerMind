@@ -1,0 +1,28 @@
+✔ presentation defaults are local learning, normal speed and muted sound (0.647167ms)
+✔ tempo, reduced movement and skip only change presentation duration (0.096167ms)
+✔ cancel finishes an active transition promptly and cannot fire it twice (0.109333ms)
+✔ automatic steps remain serial and a reset invalidates the pending loop (1.412666ms)
+✔ automatic playback stops at the human turn and never queues future actions (0.124458ms)
+✔ sound stays silent until user unlocks, and respects mute and zero volume (0.167667ms)
+✔ normal decision has a 1250ms think and 1750ms hold, even with reduced motion (0.424ms)
+✔ instant and skip remove every wait and movement while fast stays readable (0.139667ms)
+✔ foreign turns and pending settlement cannot expose active human controls (0.059458ms)
+✔ display-only refresh keeps decision identity; new hand, process or version changes it (0.065458ms)
+✔ seat badges are terminal only and cannot invent a hidden hand category (0.345166ms)
+✔ central result displays actual gross and net; not a sum claimed as one winner (0.089875ms)
+✔ reset during a thinking pause cancels the pending decision without inference (0.147ms)
+✔ cards have suit and rank names, masked cards contain no face (0.428042ms)
+✔ quick sizes are integer legal raise-to totals including call (0.331ms)
+✔ amount field rejects empty, fractional and out-of-range values (0.077375ms)
+✔ terminal, halted, eliminated and active copy follows actual state (9.759292ms)
+✔ duplicate and stale commands blocked, transition remains locked (1.9865ms)
+✔ failed POST refreshes without retrying action (0.143375ms)
+✔ unreachable refresh locks commands until explicitly reconnected (0.07625ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 44.6425

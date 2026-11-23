@@ -1,0 +1,744 @@
+{
+  "timeline": [
+    {
+      "event": {
+        "kind": "hand_start",
+        "text": "Hand 1 · die Blinds werden gesetzt."
+      },
+      "version": 128,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 0.0
+    },
+    {
+      "event": {
+        "kind": "blind",
+        "text": "Ada setzt den Blind: 10 Chips.",
+        "seat": 1,
+        "amount": 10
+      },
+      "version": 129,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 143.3
+    },
+    {
+      "event": {
+        "kind": "blind",
+        "text": "Turing setzt den Blind: 20 Chips.",
+        "seat": 2,
+        "amount": 20
+      },
+      "version": 130,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 426.5
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Ada erhält eine Karte.",
+        "seat": 1,
+        "card_index": 0
+      },
+      "version": 131,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 711.1
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Turing erhält eine Karte.",
+        "seat": 2,
+        "card_index": 0
+      },
+      "version": 132,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 870.7
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Grace erhält eine Karte.",
+        "seat": 3,
+        "card_index": 0
+      },
+      "version": 133,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 1032.4
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Du erhält eine Karte.",
+        "seat": 0,
+        "card_index": 0
+      },
+      "version": 134,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 1192.7
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Ada erhält eine Karte.",
+        "seat": 1,
+        "card_index": 1
+      },
+      "version": 135,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 1353.1
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Turing erhält eine Karte.",
+        "seat": 2,
+        "card_index": 1
+      },
+      "version": 136,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 1517.0
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Grace erhält eine Karte.",
+        "seat": 3,
+        "card_index": 1
+      },
+      "version": 137,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 1679.4
+    },
+    {
+      "event": {
+        "kind": "deal",
+        "text": "Du erhält eine Karte.",
+        "seat": 0,
+        "card_index": 1
+      },
+      "version": 138,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 1842.9
+    },
+    {
+      "event": {
+        "kind": "raise",
+        "text": "Grace erhöht auf 45.",
+        "seat": 3,
+        "amount": 45,
+        "total": 45,
+        "all_in": false
+      },
+      "version": 139,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 2182.9
+    },
+    {
+      "event": {
+        "kind": "call",
+        "text": "Du gehst 45 mit.",
+        "seat": 0,
+        "amount": 45,
+        "total": 45,
+        "all_in": false
+      },
+      "version": 140,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 2835.3
+    },
+    {
+      "event": {
+        "kind": "fold",
+        "text": "Ada passt.",
+        "seat": 1,
+        "amount": 0,
+        "total": 0,
+        "all_in": false
+      },
+      "version": 141,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 3456.9
+    },
+    {
+      "event": {
+        "kind": "call",
+        "text": "Turing geht 25 mit.",
+        "seat": 2,
+        "amount": 25,
+        "total": 25,
+        "all_in": false
+      },
+      "version": 142,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 4080.8
+    },
+    {
+      "event": {
+        "kind": "collect",
+        "text": "Die Einsätze werden eingesammelt.",
+        "transfers": [
+          {
+            "seat": 1,
+            "amount": 10
+          },
+          {
+            "seat": 2,
+            "amount": 45
+          },
+          {
+            "seat": 3,
+            "amount": 45
+          },
+          {
+            "seat": 0,
+            "amount": 45
+          }
+        ],
+        "refunds": []
+      },
+      "version": 143,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 4520.9
+    },
+    {
+      "event": {
+        "kind": "prepare",
+        "text": "Die nächste Gemeinschaftskarte wird vorbereitet."
+      },
+      "version": 144,
+      "boardCount": 0,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 4801.8
+    },
+    {
+      "event": {
+        "kind": "board",
+        "text": "Flop wird aufgedeckt.",
+        "card_index": 0
+      },
+      "version": 145,
+      "boardCount": 1,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 4849.1
+    },
+    {
+      "event": {
+        "kind": "board",
+        "text": "Flop wird aufgedeckt.",
+        "card_index": 1
+      },
+      "version": 146,
+      "boardCount": 2,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 5133.6
+    },
+    {
+      "event": {
+        "kind": "board",
+        "text": "Flop wird aufgedeckt.",
+        "card_index": 2
+      },
+      "version": 147,
+      "boardCount": 3,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 5414.4
+    },
+    {
+      "event": {
+        "kind": "check",
+        "text": "Turing checkt.",
+        "seat": 2,
+        "amount": 0,
+        "total": 0,
+        "all_in": false
+      },
+      "version": 148,
+      "boardCount": 3,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 5876.9
+    },
+    {
+      "event": {
+        "kind": "bet",
+        "text": "Grace setzt 145.",
+        "seat": 3,
+        "amount": 145,
+        "total": 145,
+        "all_in": false
+      },
+      "version": 149,
+      "boardCount": 3,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 6432.1
+    },
+    {
+      "event": {
+        "kind": "call",
+        "text": "Du gehst 145 mit.",
+        "seat": 0,
+        "amount": 145,
+        "total": 145,
+        "all_in": false
+      },
+      "version": 150,
+      "boardCount": 3,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 6914.9
+    },
+    {
+      "event": {
+        "kind": "fold",
+        "text": "Turing passt.",
+        "seat": 2,
+        "amount": 0,
+        "total": 0,
+        "all_in": false
+      },
+      "version": 151,
+      "boardCount": 3,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 7534.9
+    },
+    {
+      "event": {
+        "kind": "collect",
+        "text": "Die Einsätze werden eingesammelt.",
+        "transfers": [
+          {
+            "seat": 3,
+            "amount": 145
+          },
+          {
+            "seat": 0,
+            "amount": 145
+          }
+        ],
+        "refunds": []
+      },
+      "version": 152,
+      "boardCount": 3,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 7988.5
+    },
+    {
+      "event": {
+        "kind": "prepare",
+        "text": "Die nächste Gemeinschaftskarte wird vorbereitet."
+      },
+      "version": 153,
+      "boardCount": 3,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 8268.4
+    },
+    {
+      "event": {
+        "kind": "board",
+        "text": "Turn wird aufgedeckt.",
+        "card_index": 3
+      },
+      "version": 154,
+      "boardCount": 4,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 8316.1
+    },
+    {
+      "event": {
+        "kind": "bet",
+        "text": "Grace setzt 435.",
+        "seat": 3,
+        "amount": 435,
+        "total": 435,
+        "all_in": false
+      },
+      "version": 155,
+      "boardCount": 4,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 8779.1
+    },
+    {
+      "event": {
+        "kind": "call",
+        "text": "Du gehst 435 mit.",
+        "seat": 0,
+        "amount": 435,
+        "total": 435,
+        "all_in": false
+      },
+      "version": 156,
+      "boardCount": 4,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 9266.2
+    },
+    {
+      "event": {
+        "kind": "collect",
+        "text": "Die Einsätze werden eingesammelt.",
+        "transfers": [
+          {
+            "seat": 3,
+            "amount": 435
+          },
+          {
+            "seat": 0,
+            "amount": 435
+          }
+        ],
+        "refunds": []
+      },
+      "version": 157,
+      "boardCount": 4,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 9710.2
+    },
+    {
+      "event": {
+        "kind": "prepare",
+        "text": "Die nächste Gemeinschaftskarte wird vorbereitet."
+      },
+      "version": 158,
+      "boardCount": 4,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 9993.5
+    },
+    {
+      "event": {
+        "kind": "board",
+        "text": "River wird aufgedeckt.",
+        "card_index": 4
+      },
+      "version": 159,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 10042.1
+    },
+    {
+      "event": {
+        "kind": "bet",
+        "text": "Grace setzt 1305.",
+        "seat": 3,
+        "amount": 1305,
+        "total": 1305,
+        "all_in": false
+      },
+      "version": 160,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 10506.6
+    },
+    {
+      "event": {
+        "kind": "call",
+        "text": "Du gehst 1305 mit.",
+        "seat": 0,
+        "amount": 1305,
+        "total": 1305,
+        "all_in": false
+      },
+      "version": 161,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 10983.2
+    },
+    {
+      "event": {
+        "kind": "collect",
+        "text": "Die Einsätze werden eingesammelt.",
+        "transfers": [
+          {
+            "seat": 3,
+            "amount": 1305
+          },
+          {
+            "seat": 0,
+            "amount": 1305
+          }
+        ],
+        "refunds": []
+      },
+      "version": 162,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        0
+      ],
+      "milliseconds_from_start": 11423.0
+    },
+    {
+      "event": {
+        "kind": "show",
+        "text": "Grace zeigt die Karten.",
+        "seat": 3
+      },
+      "version": 163,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        2
+      ],
+      "milliseconds_from_start": 11705.4
+    },
+    {
+      "event": {
+        "kind": "show",
+        "text": "Du zeigst die Karten.",
+        "seat": 0
+      },
+      "version": 164,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        2
+      ],
+      "milliseconds_from_start": 12113.5
+    },
+    {
+      "event": {
+        "kind": "prepare",
+        "text": "PokerKit prüft die Topfberechtigung."
+      },
+      "version": 165,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        2
+      ],
+      "milliseconds_from_start": 12523.4
+    },
+    {
+      "event": {
+        "kind": "award",
+        "text": "Topfauszahlung: Du 3915 Chips.",
+        "award": {
+          "index": 0,
+          "engine_pot": 0,
+          "amount": 3915,
+          "winners": [
+            {
+              "seat": 0,
+              "name": "Du",
+              "amount": 3915
+            }
+          ]
+        }
+      },
+      "version": 166,
+      "boardCount": 5,
+      "finished": false,
+      "opponentCards": [
+        0,
+        0,
+        2
+      ],
+      "milliseconds_from_start": 12569.0
+    },
+    {
+      "event": {
+        "kind": "complete",
+        "text": "Hand abgeschlossen · alle Chips sind ausgezahlt."
+      },
+      "version": 167,
+      "boardCount": 5,
+      "finished": true,
+      "opponentCards": [
+        2,
+        2,
+        2
+      ],
+      "milliseconds_from_start": 13135.9
+    }
+  ],
+  "errors": []
+}

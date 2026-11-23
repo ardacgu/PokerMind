@@ -42,3 +42,7 @@ Optional chart regeneration uses Matplotlib 3.9.0; consult its [upstream license
 ## Visual assets
 
 The application uses project-created CSS/SVG table, cards, chip decorations and favicon, Unicode suit symbols and the operating system font stack. No third-party stock images, paid assets, remotely loaded fonts or frontend libraries are included. Screenshots capture the actual application. Scientific figures were generated from the project's recorded simulated results. No invented asset-owner attribution is added.
+
+## PokerMind 2.0 presentation
+
+Additional card/chip motion uses local CSS and the browser Web Animations API. Short optional sound effects are synthesized with original Web Audio oscillator envelopes; no downloaded sounds, music, external assets or paid service are used. The existing project-license decision remains unchanged.

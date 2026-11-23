@@ -1,0 +1,11 @@
+{
+  "protected_original_files_verified": 558,
+  "explicit_runtime_updates": [
+    "pokermind/server.py",
+    "pokermind/static/app.js",
+    "pokermind/static/index.html",
+    "pokermind/static/style.css"
+  ],
+  "original_game_teacher_model_data_evaluation_unchanged": true,
+  "document_links": "passed"
+}

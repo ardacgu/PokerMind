@@ -1,0 +1,41 @@
+[
+  {
+    "speed": "fast",
+    "width": 1280,
+    "height": 800,
+    "elapsed": 16230,
+    "replacements": 0,
+    "enabled": 0,
+    "min": 228,
+    "max": 228,
+    "ymin": 1128.09375,
+    "ymax": 1128.09375,
+    "scrollChangesDuringBot": 0
+  },
+  {
+    "speed": "instant",
+    "width": 768,
+    "height": 1024,
+    "elapsed": 550,
+    "replacements": 0,
+    "enabled": 0,
+    "min": 345,
+    "max": 345,
+    "ymin": 1172.09375,
+    "ymax": 1172.09375,
+    "scrollChangesDuringBot": 0
+  },
+  {
+    "speed": "normal",
+    "width": 390,
+    "height": 844,
+    "elapsed": 53759,
+    "replacements": 0,
+    "enabled": 0,
+    "min": 450,
+    "max": 450,
+    "ymin": 1352.296875,
+    "ymax": 1352.296875,
+    "scrollChangesDuringBot": 0
+  }
+]

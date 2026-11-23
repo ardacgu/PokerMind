@@ -1,0 +1,20 @@
+{
+  "decision": {
+    "action": "call",
+    "amount": null
+  },
+  "prediction": {
+    "raw": "call",
+    "label": "call",
+    "raw_illegal": false,
+    "fallback": false,
+    "probabilities": {
+      "fold": 0.11041799469493331,
+      "check": 0.0,
+      "call": 0.8666945468101678,
+      "small": 0.013523188954539552,
+      "large": 0.009364269540359595,
+      "all_in": 0.0
+    }
+  }
+}

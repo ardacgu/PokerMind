@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-08",
+  "archive_candidate_sha256": "e22b30945826044306efcfea3cf9f134f8f07b59498347bcc9679c6614b075ba",
+  "installation": "New Python 3.11.9 venv; include-system-site-packages=false; pip install -r requirements.txt; pip check passed",
+  "python_tests": {
+    "passed": 94,
+    "failed": 0,
+    "warnings": 1
+  },
+  "javascript_tests": {
+    "passed": 13,
+    "failed": 0
+  },
+  "browser": {
+    "finished": true,
+    "hand": 1,
+    "board_cards": 5,
+    "model": "imitation-v1",
+    "mode": "learned",
+    "chip_total": 8000,
+    "reset_hand": 0,
+    "preflop_private": true,
+    "page_errors": []
+  },
+  "protected_original_files_verified": 558,
+  "final_archive_policy": "After this test, only documentation/evidence may change. Packaging checks CRC and every archived byte; executed runtime/model/data/test files must remain identical to this extracted copy."
+}
