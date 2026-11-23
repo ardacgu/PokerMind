@@ -1,6 +1,6 @@
 # Architecture, rules and privacy
 
-Current local development: PokerMind 2.0. The published v1.0.0 release is unchanged. See [the incremental live architecture](pokermind-2.md). The original synchronous architecture below documents the preserved compatibility API and scientific simulator. The numbered extension sections below record historical development; statements about deferred work apply to their original stage. Use the current README and reproduction guide for final commands.
+Current application: PokerMind 2.0. The published v1.0.0 release is unchanged. See [the incremental live architecture](pokermind-2.md). The original synchronous architecture below documents the preserved compatibility API and scientific simulator. The numbered extension sections below record historical development; statements about deferred work apply to their original stage. Use the current README and reproduction guide for final commands.
 
 ## Components and authority
 

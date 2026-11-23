@@ -1,6 +1,6 @@
-# PokerMind 2.0 — local development version
+# PokerMind 2.0 — architecture and operation
 
-This branch improves live presentation and completed-hand analysis. It does not retrain the AI, change PokerKit rules, update the Teacher, or replace the published v1.0.0 release. Historical reports and the Stage 6 runtime remain evidence of their original versions.
+Version 2.0 improves live presentation and completed-hand analysis. It does not retrain the AI, change PokerKit rules, update the Teacher, or remove the previous v1.0.0 release. Historical reports and the Stage 6 runtime remain evidence of their original versions.
 
 ## Run and play
 

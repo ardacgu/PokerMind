@@ -27,3 +27,4 @@ jobs:
       - run: python -m pytest -q
       - run: node --test tests/*.test.mjs
       - run: python scripts/v2_verify.py
+      - run: python scripts/publication_audit.py
